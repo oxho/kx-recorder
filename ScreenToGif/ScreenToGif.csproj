@@ -163,7 +163,7 @@
     <SignAssembly>False</SignAssembly>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
-    <Version>2.43.2</Version>
+    <Version>2.43.3</Version>
     <Copyright>Copyright© N-Tech + Nicke Manarin 2026</Copyright>
     <PackageProjectUrl>https://nicke.tech/screentogif</PackageProjectUrl>
   </PropertyGroup>

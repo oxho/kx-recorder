@@ -25,11 +25,12 @@ SolidCompression=yes
 WizardStyle=modern
 
 [Tasks]
+Name: startmenu; Description: "创建开始菜单快捷方式"
 Name: desktopicon; Description: "创建桌面快捷方式"; Flags: unchecked
 
 [Files]
 Source: "{#Payload}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{group}\K-x录动"; Filename: "{app}\ScreenToGif.exe"; WorkingDir: "{app}"
+Name: "{group}\K-x录动"; Tasks: startmenu; Filename: "{app}\ScreenToGif.exe"; WorkingDir: "{app}"
 Name: "{userdesktop}\K-x录动"; Filename: "{app}\ScreenToGif.exe"; WorkingDir: "{app}"; Tasks: desktopicon

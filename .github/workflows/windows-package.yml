@@ -7,12 +7,17 @@ jobs:
     runs-on: windows-2025
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: 中文 构建
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 9.0.x
-      - run: ./installer/build.ps1 -Iscc "${env:ProgramFiles(x86)}/Inno Setup 6/ISCC.exe"
+      - working-directory: 中文 构建
+        run: ./installer/build.ps1 -Iscc "${env:ProgramFiles(x86)}/Inno Setup 6/ISCC.exe"
+      - working-directory: 中文 构建
+        run: ./installer/test-chinese-path.ps1 -Installer (Get-Item ./ScreenToGif/bin/Installer/*.exe).FullName
       - uses: actions/upload-artifact@v4
         with:
           name: Windows-x64
           if-no-files-found: error
-          path: ScreenToGif/bin/Installer/*.exe
+          path: 中文 构建/ScreenToGif/bin/Installer/*.exe
