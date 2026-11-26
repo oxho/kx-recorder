@@ -55,7 +55,7 @@ public partial class StudioBanner : UserControl
         var payload = new { event_id = Guid.NewGuid(), exposure_id = _exposure, event_type = type,
             slot = _shown.slot, creative_id = _shown.creative_id, creative_version = _shown.creative_version,
             campaign_id = _shown.campaign_id, is_test = _shown.is_test, platform = "Windows",
-            app_version = typeof(StudioBanner).Assembly.GetName().Version.ToString() };
+            app_version = typeof(StudioBanner).Assembly.GetName().Version.ToString(3) };
         try { using var result = await Client.PostAsJsonAsync(Origin + "/v2/apps/" + AppId + "/events", payload); }
         catch (Exception) { /* Telemetry must not interrupt exports. */ }
     }
@@ -107,8 +107,11 @@ public partial class StudioBanner : UserControl
             {
                 try
                 {
-                    using var response = await Client.GetAsync(Endpoint, token);
-                    var json = response.StatusCode == System.Net.HttpStatusCode.NotFound
+                    var testing = Environment.GetEnvironmentVariable("KX_AD_TEST") == "1";
+                    var version = typeof(StudioBanner).Assembly.GetName().Version.ToString(3);
+                    var url = Endpoint + "?platform=Windows&app_version=" + version + (testing ? "&test=1" : "");
+                    using var response = await Client.GetAsync(url, token);
+                    var json = !testing && response.StatusCode == System.Net.HttpStatusCode.NotFound
                         ? await Client.GetStringAsync(Endpoint.Replace("/v2/", "/v1/"), token)
                         : await response.EnsureSuccessStatusCode().Content.ReadAsStringAsync(token);
                     var config = JsonSerializer.Deserialize<Configuration>(json);
