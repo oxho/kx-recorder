@@ -19,13 +19,15 @@ foreach ($withShortcut in @($false, $true)) {
         if (!(Test-Path -LiteralPath $exe) -or !(Test-Path -LiteralPath "$installDir\LICENSE.txt")) { throw 'Missing payload.' }
         if ((Test-Path -LiteralPath $shortcut) -ne $withShortcut) { throw 'Shortcut option failed.' }
         if ($withShortcut) {
+            $fs = New-Object -ComObject Scripting.FileSystemObject
+            $expectedPath = $fs.GetFile($exe).ShortPath
             Start-Process -FilePath $shortcut
             $app = $null
             $deadline = (Get-Date).AddSeconds(25)
             do {
                 Start-Sleep -Milliseconds 300
                 $app = Get-Process -Name 'ScreenToGif' -ErrorAction SilentlyContinue |
-                    Where-Object { $_.Path -eq $exe } | Select-Object -First 1
+                    Where-Object { $_.Path -and $fs.FileExists($_.Path) -and $fs.GetFile($_.Path).ShortPath -eq $expectedPath } | Select-Object -First 1
             } until ($app -or (Get-Date) -gt $deadline)
             if (!$app) { throw "Shortcut did not start the installed application: $exe" }
         } else {
