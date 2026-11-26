@@ -14,10 +14,37 @@ jobs:
           dotnet-version: 9.0.x
       - working-directory: 中文 构建
         run: ./installer/build.ps1 -Iscc "${env:ProgramFiles(x86)}/Inno Setup 6/ISCC.exe"
-      - working-directory: 中文 构建
-        run: ./installer/test-chinese-path.ps1 -Installer (Get-Item ./ScreenToGif/bin/Installer/*.exe).FullName
       - uses: actions/upload-artifact@v4
         with:
           name: Windows-x64
           if-no-files-found: error
           path: 中文 构建/ScreenToGif/bin/Installer/*.exe
+
+  install-check:
+    needs: package
+    runs-on: windows-2025
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            tests
+            installer
+      - uses: actions/download-artifact@v4
+        with:
+          name: Windows-x64
+          path: candidate
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 45758111558
+          name: Windows-x64
+          path: baseline
+      - name: Verify first launch and clean uninstall
+        shell: powershell
+        run: ./tests/installer/Test-FirstLaunch.ps1 -Installer (Get-Item ./candidate/*.exe).FullName
+      - name: Verify shortcut choices and upgrade
+        shell: powershell
+        run: ./tests/installer/Test-Upgrade.ps1 -Current (Get-Item ./candidate/*.exe).FullName -Previous (Get-Item ./baseline/*.exe).FullName
