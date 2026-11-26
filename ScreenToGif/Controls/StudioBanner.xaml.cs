@@ -40,7 +40,7 @@ public partial class StudioBanner : UserControl
     private void CheckVisibility()
     {
         var window = Window.GetWindow(this);
-        if (_shown == null || !Card.IsVisible || window == null || window.WindowState == WindowState.Minimized ||
+        if (_shown == null || !Card.IsVisible || window == null || !window.IsActive || window.WindowState == WindowState.Minimized ||
             Card.ActualWidth <= 0 || Card.ActualHeight <= 0) { _visibleSince = 0; return; }
         var bounds = Card.TransformToAncestor(window).TransformBounds(new Rect(Card.RenderSize));
         var clip = Rect.Intersect(bounds, new Rect(window.RenderSize));
@@ -56,8 +56,17 @@ public partial class StudioBanner : UserControl
             slot = _shown.slot, creative_id = _shown.creative_id, creative_version = _shown.creative_version,
             campaign_id = _shown.campaign_id, is_test = _shown.is_test, platform = "Windows",
             app_version = typeof(StudioBanner).Assembly.GetName().Version.ToString(3) };
-        try { using var result = await Client.PostAsJsonAsync(Origin + "/v2/apps/" + AppId + "/events", payload); }
-        catch (Exception) { /* Telemetry must not interrupt exports. */ }
+        for (var attempt = 0; attempt < 2; attempt++)
+        {
+            try
+            {
+                using var result = await Client.PostAsJsonAsync(Origin + "/v2/apps/" + AppId + "/events", payload);
+                if ((int)result.StatusCode < 500 && (int)result.StatusCode != 429) return;
+            }
+            catch (HttpRequestException) { }
+            catch (TaskCanceledException) { }
+            if (attempt == 0) await Task.Delay(750);
+        }
     }
 
     private void HideAd()
