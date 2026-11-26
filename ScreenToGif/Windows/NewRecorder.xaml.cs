@@ -644,7 +644,7 @@ public partial class NewRecorder
     {
         if (_preStartCount >= 1)
         {
-            Title = "ScreenToGif - " + LocalizationHelper.Get("S.Recorder.PreStarting");
+            Title = "K-x录动 - " + LocalizationHelper.Get("S.Recorder.PreStarting");
             DisplayTimer.SetElapsed(-_preStartCount);
             Splash.SetTime(-_preStartCount);
             _preStartCount--;
@@ -659,7 +659,7 @@ public partial class NewRecorder
         if (IsRegionIntersected())
             WindowState = WindowState.Minimized;
 
-        Title = "ScreenToGif";
+        Title = "K-x录动";
         IsRecording = true;
 
         StartCapture();
@@ -1063,7 +1063,7 @@ public partial class NewRecorder
                     {
                         Stage = RecorderStages.PreStarting;
 
-                        Title = "ScreenToGif - " + LocalizationHelper.Get("S.Recorder.PreStarting");
+                        Title = "K-x录动 - " + LocalizationHelper.Get("S.Recorder.PreStarting");
                         DisplayTimer.SetElapsed(-UserSettings.All.PreStartValue);
 
                         _preStartCount = UserSettings.All.PreStartValue - 1;
@@ -1092,7 +1092,7 @@ public partial class NewRecorder
                     #region To record again
 
                     Stage = RecorderStages.Recording;
-                    Title = "ScreenToGif";
+                    Title = "K-x录动";
                     _regionSelection.HideGuidelines();
                     SetTaskbarButtonOverlay();
 
@@ -1229,7 +1229,7 @@ public partial class NewRecorder
                 return;
 
             Stage = RecorderStages.Paused;
-            Title = "ScreenToGif";
+            Title = "K-x录动";
 
             _limitTimer.Stop();
             PauseCapture();
@@ -1250,7 +1250,7 @@ public partial class NewRecorder
         try
         {
             RecordControlsGrid.IsEnabled = false;
-            Title = "ScreenToGif - " + LocalizationHelper.Get("S.Recorder.Stopping");
+            Title = "K-x录动 - " + LocalizationHelper.Get("S.Recorder.Stopping");
             Cursor = Cursors.AppStarting;
 
             _limitTimer.Stop();
@@ -1291,19 +1291,19 @@ public partial class NewRecorder
         {
             LogWriter.Log(nll, "NullPointer on the Stop function");
 
-            ErrorDialog.Ok("ScreenToGif", "Error while stopping", nll.Message, nll);
+            ErrorDialog.Ok("K-x录动", "Error while stopping", nll.Message, nll);
         }
         catch (Exception ex)
         {
             LogWriter.Log(ex, "Error on the Stop function");
 
-            ErrorDialog.Ok("ScreenToGif", "Error while stopping", ex.Message, ex);
+            ErrorDialog.Ok("K-x录动", "Error while stopping", ex.Message, ex);
         }
         finally
         {
             if (IsLoaded)
             {
-                Title = "ScreenToGif";
+                Title = "K-x录动";
                 Cursor = Cursors.Arrow;
                 RecordControlsGrid.IsEnabled = true;
 
@@ -1378,7 +1378,7 @@ public partial class NewRecorder
         FrequencyIntegerUpDown.IsEnabled = true;
         RecordControlsGrid.IsEnabled = true;
 
-        Title = "ScreenToGif";
+        Title = "K-x录动";
         Cursor = Cursors.Arrow;
         IsRecording = false;
 
@@ -1430,7 +1430,7 @@ public partial class NewRecorder
             if (exception is GraphicsConfigurationException)
                 GraphicsConfigurationDialog.Ok(exception, _viewModel.CurrentMonitor);
             else
-                ErrorDialog.Ok("ScreenToGif", LocalizationHelper.Get("S.Recorder.Warning.CaptureNotPossible"), exception.Message, exception);
+                ErrorDialog.Ok("K-x录动", LocalizationHelper.Get("S.Recorder.Warning.CaptureNotPossible"), exception.Message, exception);
 
             Capture.Dispose();
             Capture = null;
@@ -1792,7 +1792,7 @@ public partial class NewRecorder
     private void AdjustToManual()
     {
         Stage = RecorderStages.Recording;
-        Title = "ScreenToGif";
+        Title = "K-x录动";
         FrameRate.Start(HasFixedDelay(), GetFixedDelay());
 
         _regionSelection.DisplayGuidelines();
@@ -1801,7 +1801,7 @@ public partial class NewRecorder
     private void AdjustToInteraction()
     {
         Stage = Project?.Frames?.Count > 0 ? RecorderStages.Paused : RecorderStages.Stopped;
-        Title = "ScreenToGif";
+        Title = "K-x录动";
         FrameRate.Start(HasFixedDelay(), GetFixedDelay());
 
         _regionSelection.DisplayGuidelines();
@@ -1810,7 +1810,7 @@ public partial class NewRecorder
     private void AdjustToAutomatic()
     {
         Stage = Project?.Frames?.Count > 0 ? RecorderStages.Paused : RecorderStages.Stopped;
-        Title = "ScreenToGif";
+        Title = "K-x录动";
         FrameRate.Stop();
 
         _regionSelection.DisplayGuidelines();

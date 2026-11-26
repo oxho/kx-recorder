@@ -13,7 +13,6 @@ public partial class AboutSettings : Page
         InitializeComponent();
 
 #if FULL_MULTI_MSIX_STORE
-        CheckForUpdatesLabel.Visibility = Visibility.Collapsed;
         StoreTextBlock.Visibility = Visibility.Visible;
 #endif
     }
@@ -29,28 +28,6 @@ public partial class AboutSettings : Page
         catch (Exception ex)
         {
             LogWriter.Log(ex, "Open Hyperlink");
-        }
-    }
-
-    private async void CheckForUpdatesLabel_Click(object sender, RoutedEventArgs e)
-    {
-        try
-        {
-            CheckForUpdatesLabel.IsEnabled = false;
-
-            await App.MainViewModel.CheckForUpdates(true);
-
-            if (Global.UpdateAvailable != null)
-            {
-                App.MainViewModel.PromptUpdate.Execute(null);
-                return;
-            }
-
-            StatusBand.Info(LocalizationHelper.Get("S.Options.About.UpdateCheck.Nothing"));
-        }
-        finally
-        {
-            CheckForUpdatesLabel.IsEnabled = true;
         }
     }
 }

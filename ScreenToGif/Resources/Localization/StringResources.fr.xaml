@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Afin d'utiliser correctement cette application, vous devez télécharger la version correcte du .Net Framework.&#10;Voulez-vous ouvrir la page web pour la télécharger?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Une seule instance autorisée</s:String>
     <s:String x:Key="S.Warning.Single.Header">L'application est déjà lancée</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif est déjà en cours d'exécution, mais apparemment il n'y a pas de fenêtre ouverte. Vérifiez dans la barre d'état système, une icône ScreenToGif doit s'y trouver.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 est déjà en cours d'exécution, mais apparemment il n'y a pas de fenêtre ouverte. Vérifiez dans la barre d'état système, une icône K-x录动 doit s'y trouver.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Sauvegarder les paramètres</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Souhaitez-vous réessayer de l'enregistrer ?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Il semble que ScreenToGif ne dispose pas de suffisamment de privilèges pour enregistrer les paramètres sur le disque.&#10;&#10;Voulez-vous réessayer, mais cette fois en utilisant les privilèges administratifs ?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Il semble que K-x录动 ne dispose pas de suffisamment de privilèges pour enregistrer les paramètres sur le disque.&#10;&#10;Voulez-vous réessayer, mais cette fois en utilisant les privilèges administratifs ?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">Quitter de ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">Quitter de K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Êtes-vous sûr de vouloir quitter?</s:String>
     <s:String x:Key="S.Exiting.Message">Toutes les fenêtres seront fermées et l'icône de la barre des tâches sera supprimée.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Changer d'adaptateur graphique</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Basculez vers la bonne carte graphique pour capturer l'écran sélectionné</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">En raison d'une limitation dans DirectX, ScreenToGif doit être exécuté sur la même carte graphique que l'écran capturé.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Changez l'adaptateur graphique défini pour ScreenToGif en ouvrant Paramètres Windows > Système > Affichage > Paramètres graphiques, ou en cliquant sur le lien ci-dessous.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Basculez la carte graphique pour ScreenToGif en ouvrant les paramètres graphiques de votre carte graphique.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">En raison d'une limitation dans DirectX, K-x录动 doit être exécuté sur la même carte graphique que l'écran capturé.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Changez l'adaptateur graphique défini pour K-x录动 en ouvrant Paramètres Windows > Système > Affichage > Paramètres graphiques, ou en cliquant sur le lien ci-dessous.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Basculez la carte graphique pour K-x录动 en ouvrant les paramètres graphiques de votre carte graphique.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Ouvrir les paramètres de Windows</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Voir l'historique</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Bienvenue</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Bienvenue</s:String>
     <s:String x:Key="S.StartUp.Recorder">Capture d'écran</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Ouvre l'enregistreur d'écran,&#10;où vous pouvez facilement commencer à capturer votre écran</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -161,7 +161,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Télécharger la dernière version de ScreenToGif.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Mise à jour</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Mise à jour</s:String>
     <s:String x:Key="S.Updater.Header">Une nouvelle mise à jour est disponible</s:String>
     <s:String x:Key="S.Updater.NewRelease">Nouvelle version!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Nouvelle version disponible, Version {0}!&#x0d;Cliquez ici pour plus de détails.</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Vous devez attendre la fin de tous les encodages avant la mise à jour.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Téléchargeur</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Téléchargeur</s:String>
     <s:String x:Key="S.Downloader.Header">Téléchargeur</s:String>
     <s:String x:Key="S.Downloader.Size">{0} sur {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Options</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Options</s:String>
     <s:String x:Key="S.Options.App">Application</s:String>
     <s:String x:Key="S.Options.Recorder">Enregistreur</s:String>
     <s:String x:Key="S.Options.Editor">Éditeur</s:String>
@@ -473,7 +473,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(en jours, tout projet fermé plus ancien que celui-ci sera effacé / annulé après l'ouverture de l'application)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Effacer le cache</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Effacer le cache</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Voulez-vous effacer le dossier cache?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Lorsque vous créez un enregistrement ou ouvrez quelque chose à éditer, un projet est créé et stocké dans dossier cache.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Souhaitez-vous retirer ces projets du dossier cache?</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Cliquer ou appuyer sur des touches pour capturer</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Accrocher à la fenêtre (Prendre et relâchez pour accrocher)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Démarrage dans...</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (en pause)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (en pause)</s:String>
     <s:String x:Key="S.Recorder.Stopping">En arrêt...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Pré-démarrage...</s:String>
     
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Cette action supprimera l'enregistrement, supprimant toutes les images.&#x0d;Vous ne pouvez pas annuler cette opération.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Capture de WebCam</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Capture de WebCam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Aucun périphérique vidéo détecté :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Rechercher vos périphériques vidéo</s:String>
     <s:String x:Key="S.Webcam.Scale">Échelle: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Changer l'échelle de la vidéo.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Planche à dessin</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Planche à dessin</s:String>
     <s:String x:Key="S.Board.AutoRecord">Enregistrement automatique</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Activer l'enregistrement pendant le dessin</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Maintenir]</s:String>
@@ -904,7 +904,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Copier le lien</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Sortie de commande</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Sortie de commande</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Sortie de commande</s:String>
     
     <!--Notifications-->
@@ -912,7 +912,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Effacer toutes les notifications</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Éditeur</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Éditeur</s:String>
     <s:String x:Key="S.Editor.File">Fichier</s:String>
     <s:String x:Key="S.Editor.Home">Accueil</s:String>
     <s:String x:Key="S.Editor.Playback">Lecture</s:String>
@@ -1347,7 +1347,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Commencez l’enregistrement des touches plus tôt.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Par (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Aucune touches détectées sur votre enregistrement.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Éditeur de touches</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Éditeur de touches</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Nombre d'image</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Touches détectées</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Supprimer la touche</s:String>
@@ -1541,7 +1541,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Encodage</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Encodeur et quantificateur</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Encodeur chargé de générer le fichier de sortie.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Encodeur intégré.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">Encodeur KGy SOFT GIF.</s:String>

@@ -75,7 +75,7 @@ public partial class WebcamControl : UserControl
         catch (Exception e)
         {
             LogWriter.Log(e, "It was not possible to access the webcam feed.");
-            ErrorDialog.Ok("ScreenToGif", "It was not possible to access the webcam's feed", e.Message, e);
+            ErrorDialog.Ok("K-x录动", "It was not possible to access the webcam's feed", e.Message, e);
         }
     }
 

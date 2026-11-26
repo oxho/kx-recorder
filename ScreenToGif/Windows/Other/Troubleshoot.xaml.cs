@@ -163,7 +163,7 @@ public partial class Troubleshoot
                 var left = window.Left * scale;
                 var width = window.ActualWidth * scale;
                 var height = window.ActualHeight * scale;
-                var title = window.Title.Remove("ScreenToGif - ");
+                var title = window.Title.Remove("K-x录动 - ");
 
                 if (window is Recorder or NewRecorder or RegionSelection)
                     title = LocalizationHelper.Get("S.StartUp.Recorder");
@@ -325,7 +325,7 @@ public partial class Troubleshoot
                         {
                             VerticalAlignment = VerticalAlignment.Center,
                             Padding = new Thickness(2),
-                            Text = (LocalizationHelper.Get("S.StartUp.Title") ?? "").Remove("ScreenToGif - "),
+                            Text = (LocalizationHelper.Get("S.StartUp.Title") ?? "").Remove("K-x录动 - "),
                             Foreground = TryFindResource("Element.Foreground") as SolidColorBrush ?? Brushes.Black,
                         }
                     }

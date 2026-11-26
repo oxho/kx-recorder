@@ -7,7 +7,7 @@
                xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
                xmlns:e="clr-namespace:ScreenToGif.Domain.Enums;assembly=ScreenToGif.Domain"
                xmlns:u="clr-namespace:ScreenToGif.Util;assembly=ScreenToGif.Util"
-               Title="ScreenToGif" SnapsToDevicePixels="True" UseLayoutRounding="True" AllowsTransparency="True" WindowStyle="None" 
+               Title="K-x录动" SnapsToDevicePixels="True" UseLayoutRounding="True" AllowsTransparency="True" WindowStyle="None"
                Topmost="True" Icon="../Resources/Logo.ico"
                IsThin="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}}"
                IsFollowing="{Binding CursorFollowing, Source={x:Static t:UserSettings.All}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"

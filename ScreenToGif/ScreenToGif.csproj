@@ -27,6 +27,8 @@
     <StartupObject>ScreenToGif.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
+    <Product>K-x录动</Product>
+    <AssemblyTitle>K-x录动</AssemblyTitle>
     <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
@@ -112,6 +114,8 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <SplashScreen Include="Resources\Splash.png" />
+    <Resource Include="Resources\Brand.png" />
     <Resource Include="Resources\Logo.ico" />
   </ItemGroup>
   <ItemGroup>

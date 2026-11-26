@@ -301,6 +301,8 @@ public class HideableTabControl : TabControl
     {
         if (!onlyStatus)
             _notificationBox?.UpdateEncoding(id);
+        else
+            _notificationBox?.RefreshCompletedExports();
 
         AnimateOrNot();
     }

@@ -20,6 +20,33 @@ public class FfmpegMp4Preset : Mp4Preset, IFfmpegPreset
         Parameters = "-vsync passthrough \n-hwaccel auto \n{I} \n-c:v libx264 \n-preset fast \n-pix_fmt yuv420p \n-vf \"scale=trunc(iw/2)*2:trunc(ih/2)*2\" \n-crf 23 \n-f mp4 \n{O}";
     }
 
+    // Reserve space for the MP4 container and avoid excessive bitrates on short clips.
+    public int AttachmentLimitMb => TitleKey switch
+    {
+        "S.Preset.Attachment.5" => 5,
+        "S.Preset.Attachment.10" => 10,
+        "S.Preset.Attachment.25" => 25,
+        _ => 0
+    };
+
+    public decimal AttachmentBitrate(TimeSpan duration)
+    {
+        if (duration <= TimeSpan.Zero)
+            return 0;
+
+        return Math.Min(20000, Math.Floor(AttachmentLimitMb * 7600m / (decimal)duration.TotalSeconds));
+    }
+
+    private static FfmpegMp4Preset Attachment(int limitMb) => new()
+    {
+        TitleKey = $"S.Preset.Attachment.{limitMb}",
+        DescriptionKey = "S.Preset.Attachment.Description",
+        IsDefault = true,
+        ConstantRateFactor = null,
+        BitRateUnit = RateUnits.Kilobits,
+        Pass = 2
+    };
+
     public static List<FfmpegMp4Preset> Defaults => new()
     {
         new FfmpegMp4Preset
@@ -82,5 +109,8 @@ public class FfmpegMp4Preset : Mp4Preset, IFfmpegPreset
             PixelFormat = VideoPixelFormats.Yuv420p,
             Parameters = "-vsync passthrough \n-hwaccel auto \n{I} \n-c:v libx265 \n-preset fast \n-pix_fmt yuv420p \n-vf \"scale=trunc(iw/2)*2:trunc(ih/2)*2\" \n-crf 28 \n-f mp4 \n{O}"
         },
+        Attachment(5),
+        Attachment(10),
+        Attachment(25),
     };
 }

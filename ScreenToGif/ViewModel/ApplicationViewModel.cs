@@ -1333,7 +1333,7 @@ internal class ApplicationViewModel : ApplicationBaseViewModel
         {
             LogWriter.Log(ex, "Impossible to automatically install update");
 
-            ErrorDialog.Ok("ScreenToGif", "It was not possible to install the update", ex.Message, ex);
+            ErrorDialog.Ok("K-x录动", "It was not possible to install the update", ex.Message, ex);
             return false;
         }
     }

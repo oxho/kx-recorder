@@ -136,12 +136,6 @@ public static class LocalizationHelper
         #endregion
 
         GC.Collect(0);
-
-        if (!UserSettings.All.CheckForTranslationUpdates)
-            return;
-
-        //Async, fire and forget.
-        _ = CheckForUpdates(culture);
     }
 
     private static void SetOrUpdateResource(string key, string fontName)

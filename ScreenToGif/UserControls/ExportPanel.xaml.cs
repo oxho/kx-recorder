@@ -51,7 +51,7 @@ public partial class ExportPanel : UserControl, IPanel
 
     public static readonly DependencyProperty SelectionCountProperty = DependencyProperty.Register(nameof(SelectionCount), typeof(int), typeof(ExportPanel), new PropertyMetadata(default(int)));
 
-    public static readonly DependencyProperty TotalTimeProperty = DependencyProperty.Register(nameof(TotalTime), typeof(TimeSpan), typeof(ExportPanel), new PropertyMetadata(default(TimeSpan)));
+    public static readonly DependencyProperty TotalTimeProperty = DependencyProperty.Register(nameof(TotalTime), typeof(TimeSpan), typeof(ExportPanel), new PropertyMetadata(default(TimeSpan), (d, _) => ((ExportPanel)d).UpdateAttachmentEstimate()));
 
     public static readonly DependencyProperty CurrentFrameProperty = DependencyProperty.Register(nameof(CurrentFrame), typeof(FrameViewModel), typeof(ExportPanel), new PropertyMetadata(default(FrameViewModel)));
 
@@ -797,6 +797,12 @@ public partial class ExportPanel : UserControl, IPanel
     {
         #region Validate preset specific properties
 
+        if (CurrentPreset is FfmpegMp4Preset { AttachmentLimitMb: > 0, BitRate: < 1 })
+        {
+            RaiseValidatedEvent("S.Preset.Attachment.Duration", StatusReasons.InvalidState);
+            return false;
+        }
+
         var args = await CurrentPreset.IsValid();
 
         if (args != null)
@@ -934,6 +940,34 @@ public partial class ExportPanel : UserControl, IPanel
         #endregion
 
         return true;
+    }
+
+    private void SelectAttachment(object sender, RoutedEventArgs e)
+    {
+        var key = (string)((Button)sender).Tag;
+        TypeComboBox.SelectedValue = ExportFormats.Mp4;
+        PresetComboBox.SelectedItem = PresetComboBox.Items.OfType<FfmpegMp4Preset>().First(p => p.TitleKey == key);
+    }
+
+    private void UpdateAttachmentEstimate()
+    {
+        if (AttachmentEstimate == null)
+            return;
+
+        var preset = CurrentPreset as FfmpegMp4Preset;
+        var active = preset?.AttachmentLimitMb > 0;
+        AttachmentEstimate.Visibility = active ? Visibility.Visible : Visibility.Collapsed;
+        EncoderOptionsExpander.IsEnabled = !active;
+        PartialExportCheckBox.IsEnabled = !active;
+        if (!active)
+            return;
+
+        preset.ExportPartially = false;
+        preset.BitRate = preset.AttachmentBitrate(TotalTime);
+        var megabytes = (double)preset.BitRate * TotalTime.TotalSeconds / 8000;
+        AttachmentEstimate.Text = preset.BitRate < 1
+            ? LocalizationHelper.Get("S.Preset.Attachment.Duration")
+            : LocalizationHelper.GetWithFormat("S.Preset.Attachment.Estimate", megabytes, preset.BitRate);
     }
 
     public ExportPreset GetPreset()
@@ -1095,6 +1129,8 @@ public partial class ExportPanel : UserControl, IPanel
                 EmbeddedPsdOptionsGrid.Visibility = Visibility.Visible;
                 break;
         }
+
+        UpdateAttachmentEstimate();
 
         if (firstLoad)
         {

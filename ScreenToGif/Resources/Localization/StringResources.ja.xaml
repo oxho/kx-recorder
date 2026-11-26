@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">このアプリを適切に使用するには、正しい.Net Frameworkのバージョンが必要です。ダウンロードページを開きますか？</s:String>
     <s:String x:Key="S.Warning.Single.Title">単一インスタンスのみ許可</s:String>
     <s:String x:Key="S.Warning.Single.Header">アプリは既に起動しています。</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGifは既に起動しています。ウィンドウが見当たらないなら、システムトレイを見てください。ScreenToGifのアイコンがそこにあるはずです。</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动は既に起動しています。ウィンドウが見当たらないなら、システムトレイを見てください。K-x录动のアイコンがそこにあるはずです。</s:String>
     
     <!--<s:String x:Key="S.SavingSettings.Title">Saving the settings</s:String>-->
     <!--<s:String x:Key="S.SavingSettings.Instruction">Would you like to try to save it again?</s:String>-->
-    <s:String x:Key="S.SavingSettings.Message">ScreenToGifには、設定をディスクに保存するための十分な権限がないようです。 &#10;&#10;管理者権限でもう一度試してみますか？</s:String>
+    <s:String x:Key="S.SavingSettings.Message">K-x录动には、設定をディスクに保存するための十分な権限がないようです。 &#10;&#10;管理者権限でもう一度試してみますか？</s:String>
     
-    <s:String x:Key="S.Exiting.Title">ScreenToGifを終了中</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动を終了中</s:String>
     <s:String x:Key="S.Exiting.Instruction">アプリを終了したいですか？</s:String>
     <s:String x:Key="S.Exiting.Message">すべてのウィンドウは閉じられ、トレイアイコンは削除されます。</s:String>
 
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Switch Graphics Adapter</s:String>-->
     <s:String x:Key="S.Warning.Graphics.Instruction">適切なグラフィックスアダプターに切り替えて、選択した画面をキャプチャする</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">DirectX の制限により、ScreenToGif はキャプチャされる画面と同じグラフィックアダプター上で実行される必要があります。</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Windowsの「設定」→「システム」→「ディスプレイ」→「グラフィックス設定」を開くか、以下のリンクをクリックして、ScreenToGifに設定されているグラフィックスアダプターを切り替えます。</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">グラフィックアダプターのグラフィック設定を開いて、ScreenToGif用のグラフィックアダプターを切り替えます。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">DirectX の制限により、K-x录动 はキャプチャされる画面と同じグラフィックアダプター上で実行される必要があります。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Windowsの「設定」→「システム」→「ディスプレイ」→「グラフィックス設定」を開くか、以下のリンクをクリックして、K-x录动に設定されているグラフィックスアダプターを切り替えます。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">グラフィックアダプターのグラフィック設定を開いて、K-x录动用のグラフィックアダプターを切り替えます。</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Windowsの設定を開く</s:String>
     
     <!--Keys-->
@@ -142,7 +142,7 @@
     <s:String x:Key="S.Command.ViewHistory">履歴表示</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - 起動画面</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - 起動画面</s:String>
     <s:String x:Key="S.StartUp.Recorder">レコーダー</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">スクリーンレコーダーで簡単に画面の録画ができます。</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webカメラ</s:String>
@@ -156,7 +156,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">ScreenToGifの最新バージョンをダウンロードします。</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - アップデーター</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - アップデーター</s:String>
     <s:String x:Key="S.Updater.Header">最新版が出ました</s:String>
     <s:String x:Key="S.Updater.NewRelease">新しいリリース！</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">新しいバージョン {0} がリリース ! 詳細はここをクリック</s:String>
@@ -176,12 +176,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">アップデートする前に、すべてのエンコードが終了するのを待つ必要があります。</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - ダウンローダー</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - ダウンローダー</s:String>
     <s:String x:Key="S.Downloader.Header">ダウンローダー</s:String>
     <s:String x:Key="S.Downloader.Size">{0} / {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - オプション</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - オプション</s:String>
     <s:String x:Key="S.Options.App">アプリケーション</s:String>
     <s:String x:Key="S.Options.Recorder">レコーダー</s:String>
     <s:String x:Key="S.Options.Editor">エディター</s:String>
@@ -461,7 +461,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(この日数を経過した古いプロジェクトは、アプリ起動時に消去/破棄されます)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - キャッシュのクリア</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - キャッシュのクリア</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">キャッシュフォルダをクリアしますか？</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">録画を作成したり何か開いて編集してたりすると、プロジェクトが作成されキャッシュフォルダ内に保存されます。</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">これらのプロジェクトをキャッシュフォルダから削除しますか？</s:String>
@@ -666,7 +666,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">クリックまたはキーを押してキャプチャ</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">ウィンドウに吸着する (スナップしたいところへドラッグして離す)</s:String>
     <s:String x:Key="S.Recorder.PreStart">開始まで</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (ポーズ)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (ポーズ)</s:String>
     <s:String x:Key="S.Recorder.Stopping">停止中・・・</s:String>
     <s:String x:Key="S.Recorder.PreStarting">スタート前...</s:String>
     
@@ -713,14 +713,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">この操作は、録画を破棄し、すべてのフレームを削除します。&#x0d;この操作は元に戻せません。</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Webカメラレコーダー</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Webカメラレコーダー</s:String>
     <s:String x:Key="S.Webcam.NoVideo">ビデオデバイスが見つかりません。(・へ・)</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">ビデオデバイスを確認してください。</s:String>
     <s:String x:Key="S.Webcam.Scale">スケール: {0:0.##}倍</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">ビデオスケール変更</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - ボードレコーダー</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - ボードレコーダー</s:String>
     <s:String x:Key="S.Board.AutoRecord">自動録画</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">描画中も録画する</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [保持]</s:String>
@@ -888,7 +888,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">リンクをコピー</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - コマンド出力</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - コマンド出力</s:String>
     <s:String x:Key="S.Encoder.Command.Header">コマンド出力</s:String>
     
     <!--Notifications-->
@@ -896,7 +896,7 @@
     <s:String x:Key="S.Notifications.Dismiss">すべての通知を消去</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - エディター</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - エディター</s:String>
     <s:String x:Key="S.Editor.File">ファイル</s:String>
     <s:String x:Key="S.Editor.Home">ホーム</s:String>
     <s:String x:Key="S.Editor.Playback">再生制御</s:String>
@@ -1328,7 +1328,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">キーストロークの表示を先行して開始</s:String>
     <s:String x:Key="S.KeyStrokes.By">(ミリ秒):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">録画にはキーストロークはありません。</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - キーストロークエディター</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - キーストロークエディター</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">フレーム番号</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">キーストローク検出</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">キーストローク削除</s:String>
@@ -1522,7 +1522,7 @@
     <s:String x:Key="S.SaveAs.Encoder">エンコーダー</s:String>
     <!--<s:String x:Key="S.SaveAs.Encoder.Quantizer">Encoder and quantizer</s:String>-->
     <!--<s:String x:Key="S.SaveAs.Encoder.Info">Encoder responsible for generating the output file.</s:String>-->
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <!--<s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Built-in encoder.</s:String>-->
     <s:String x:Key="S.SaveAs.Encoder.System">システム</s:String>
     <!--<s:String x:Key="S.SaveAs.Encoder.System.Info">Encoder made available by the system.</s:String>-->

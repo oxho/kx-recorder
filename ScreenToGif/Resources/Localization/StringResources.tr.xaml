@@ -41,8 +41,8 @@
     <s:String x:Key="S.Warning.Net.Message">Uygulamayı düzgün bir şekilde kullanabilmek için .Net Framework.&#10; yazılımının doğru sürümünü indirmelisin. İndirmek için web sayfasının açılmasını ister misin?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Yalnız bir kez çalıştırılabilir</s:String>
     <s:String x:Key="S.Warning.Single.Header">Uygulama zaten çalışıyor</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif zaten çalışıyor, fakat görünüşe göre hiç bir pencere açık değil. Sistem tepsisini kontol et, ScreenToGif ikonu orda olmalı.</s:String>
-    <s:String x:Key="S.Exiting.Title">ScreenToGif'ten Çıkılıyor</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 zaten çalışıyor, fakat görünüşe göre hiç bir pencere açık değil. Sistem tepsisini kontol et, K-x录动 ikonu orda olmalı.</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动'ten Çıkılıyor</s:String>
     <s:String x:Key="S.Exiting.Instruction">Çıkmak istediğinize emin misiniz?</s:String>
     <s:String x:Key="S.Exiting.Message">Tüm pencereler kapatılacak ve tepsi ikonu kaldırılacak.</s:String>
     
@@ -123,7 +123,7 @@
     <s:String x:Key="S.Command.Remove">Seçili parçayı kaldır</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Başlangıç</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Başlangıç</s:String>
     <s:String x:Key="S.StartUp.Recorder">Kaydedici</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Ekran kaydediciyi açar, kolayca ekranınızı kaydetmeye başlayabilirsiniz.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Web kamerası</s:String>
@@ -155,7 +155,7 @@
     <s:String x:Key="S.Updater.Warning.Download">Güncellemeyi indirmek mümkün olmadı.</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Ayarlar</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Ayarlar</s:String>
     <s:String x:Key="S.Options.App">Uygulama</s:String>
     <s:String x:Key="S.Options.Recorder">Kaydedici</s:String>
     <s:String x:Key="S.Options.Editor">Editör</s:String>
@@ -444,7 +444,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(Bundan daha eski tüm kapalı projeler uygulamayı açtıktan sonra, gün içinde silinecek/çıkartılacak).</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Önbelleği temizle</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Önbelleği temizle</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Önbellek klasörünü temizlemek ister misiniz?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Bir kayıt oluşturduğunuzda veya düzenlemek için bir şey açıldığında bir proje oluşturularak önbellek klasöründe saklanır.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Bu projeleri önbellek klasöründen kaldırmak ister misiniz?</s:String>
@@ -663,7 +663,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Yakalamak için tıklayın veya tuşlara basın</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Pencereye Tuttur(Tutturmak için sürükleyip bırakın)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Ön Başlangıç</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Duraklatıldı)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Duraklatıldı)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Durduruluyor...</s:String>
     
     <s:String x:Key="S.Recorder.Warning.CaptureNotPossible">Ekran yakalanamadı</s:String>
@@ -703,14 +703,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Bu işlem, tüm kareleri kaldırarak kaydı atacaktır.&#x0d;Bu işlemi geri alamazsınız.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Web kamerası Kaydedicisi</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Web kamerası Kaydedicisi</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Video aygıtı bulunamadı :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Video aygıtlarını kontrol et.</s:String>
     <s:String x:Key="S.Webcam.Scale">Ölçek: x{0:0.##}</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Video ölçeğini değiştir.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Pano kaydedici</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Pano kaydedici</s:String>
     <s:String x:Key="S.Board.AutoRecord">Otomatik Kayıt</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Çizim esnasında kayt.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Kilit]</s:String>
@@ -832,7 +832,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Linki kopyala</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Komut Çıktısı</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Komut Çıktısı</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Komut çıktısı</s:String>
     
     <!--Notifications-->
@@ -840,7 +840,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Tüm bildirimleri kapat</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Editör</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Editör</s:String>
     <s:String x:Key="S.Editor.File">Dosya</s:String>
     <s:String x:Key="S.Editor.Home">Editör Ekranı</s:String>
     <s:String x:Key="S.Editor.Playback">Yürütme</s:String>
@@ -1242,7 +1242,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Tuş vuruşlarının görüntülenmesini daha erken başlatın.</s:String>
     <s:String x:Key="S.KeyStrokes.By">(ms) olarak:</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Kaydınızda tuş vuruşu yok.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Tuş Vuruşları Editörü</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Tuş Vuruşları Editörü</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Kare numarası</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Algılanan tuş vuruşları</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Tuş vuruşunu kaldır</s:String>
@@ -1373,7 +1373,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">Kodlayıcı</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Tooltip">Aşağıdaki renk azaltma yöntemiyle yerleşik kodlayıcıyı kullanır.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Legacy">Eski</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Legacy.Tooltip">Algoritma: NeuQuant.</s:String>

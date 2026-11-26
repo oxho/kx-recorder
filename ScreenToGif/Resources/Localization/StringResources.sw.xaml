@@ -40,8 +40,8 @@
     <s:String x:Key="S.Warning.Net.Message">Ili kutumia hii app ipasavyo, unahitaji kupakua tokeo sahihi ya .Net Framework.&#10;Je, ungependa kufungua ukurasa wa tovuti kuipakua?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Tukio moja tu inakubalika</s:String>
     <s:String x:Key="S.Warning.Single.Header">App tayari inaendelea</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif tayari inafanya kazi, lakini inaonekana hakuna kidirisha kilicho wazi. Tazama chano chako. Ni lazima kuwe na ikoni ya ScreenToGif hapo.</s:String>
-    <s:String x:Key="S.Exiting.Title">Inaondoka kutoka ScreenToGif</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 tayari inafanya kazi, lakini inaonekana hakuna kidirisha kilicho wazi. Tazama chano chako. Ni lazima kuwe na ikoni ya K-x录动 hapo.</s:String>
+    <s:String x:Key="S.Exiting.Title">Inaondoka kutoka K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Una uhakika unataka kuondoka?</s:String>
     <s:String x:Key="S.Exiting.Message">Madirisha yote yatafungwa na ikoni ya chano itatolewa.</s:String>
     
@@ -122,7 +122,7 @@
     <s:String x:Key="S.Command.Remove">Ondoa kipengee teuzi</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Mwanzo</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Mwanzo</s:String>
     <s:String x:Key="S.StartUp.Recorder">Kirekodi</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Inafungua kirekodi skrini, unapoweza anza kurekodi skrini yako</s:String>
     <s:String x:Key="S.StartUp.Webcam">Kamera-tovuti</s:String>
@@ -136,7 +136,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Inapakua toleo la mwisho la ScreenToGif</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Kisasishaji</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Kisasishaji</s:String>
     <s:String x:Key="S.Updater.Header">Sasisha mpya inapatikana</s:String>
     <s:String x:Key="S.Updater.NewRelease">Toleo jipya!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Toleo jipya linapatikana, Toleo {0}!&#x0d;Bofya hapa kupata maelezo zaidi.</s:String>
@@ -154,7 +154,7 @@
     <s:String x:Key="S.Updater.Warning.Download">Upakuaji wa kisasisho haukuwezekana.</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Chaguo</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Chaguo</s:String>
     <s:String x:Key="S.Options.App">Programu-tumizi</s:String>
     <s:String x:Key="S.Options.Recorder">Kirekodi</s:String>
     <s:String x:Key="S.Options.Editor">Kihariri</s:String>
@@ -397,7 +397,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(masiku, mradi wowote nzee kuliko hii utafutwa/utatupwa baada ya kufungua app)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Futa kashe</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Futa kashe</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Ungependa kufuta folda ya kashe?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Utakapotengeneza kirekodi au kufungua kitu kukihariri, mradi unaundwa na kuhifadhiwa ndani ya folda kashe.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Ungependa kuondoa miradi hii kutoka folda ya kashe?</s:String>
@@ -548,7 +548,7 @@
     
     <s:String x:Key="S.Recorder.SnapToWindow">Peusha hadi kidirisha (kokota na uachilie kupeusha)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Kabla kuanza</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (imesitishwa)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (imesitishwa)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Inasimamisha...</s:String>
     
     <s:String x:Key="S.Recorder.Warning.CaptureNotPossible">Kunasa skrini hakukuwezekana.</s:String>
@@ -572,14 +572,14 @@
     <s:String x:Key="S.Recorder.EscToCancel">Bofya Esc kughairi</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Kirekodi kamera-tovuti</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Kirekodi kamera-tovuti</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Hakuna kifaa cha video kilichogunduliwa :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Tafuta vifaa vya video.</s:String>
     <s:String x:Key="S.Webcam.Scale">Kipimo: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Badilisha uzani wa video</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Kirekodi Bodi</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Kirekodi Bodi</s:String>
     <s:String x:Key="S.Board.AutoRecord">Rekodi-kioto</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Huwezesha kurekodi unapochora.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Shikilia]</s:String>
@@ -701,7 +701,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Nakili kiungo</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Amri Towe</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Amri Towe</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Amri towe</s:String>
     
     <!--Notifications-->
@@ -709,7 +709,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Puuza maarifa yote</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Kihariri</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Kihariri</s:String>
     <s:String x:Key="S.Editor.File">Faili</s:String>
     <s:String x:Key="S.Editor.Home">Nyumbani</s:String>
     <s:String x:Key="S.Editor.Playback">Uchezaji</s:String>
@@ -1111,7 +1111,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Anza maonyesho ya vitufe vilivyobonyezwa mapema.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Kwa (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Hakuna charazo za vitufe kwa rekodi yako.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Kihariri cha vitufe vilivyobonyezwa</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Kihariri cha vitufe vilivyobonyezwa</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Nambari ya fremu</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Gundua vitufe vilivyocharazwa</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Ondoa mpigo wa kitufe</s:String>
@@ -1242,7 +1242,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">Kisimbaji</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     
     <s:String x:Key="S.SaveAs.Encoder.System">Mfumo</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Tooltip">Inatumia paleti chaguo-msingi.</s:String>

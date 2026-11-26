@@ -201,7 +201,6 @@ public partial class App : IDisposable
         #region Tasks
 
         Task.Factory.StartNew(MainViewModel.ClearTemporaryFiles, TaskCreationOptions.LongRunning);
-        Task.Factory.StartNew(async () => await MainViewModel.CheckForUpdates(),TaskCreationOptions.LongRunning);
         Task.Factory.StartNew(MainViewModel.SendFeedback, TaskCreationOptions.LongRunning);
 
         #endregion
@@ -435,9 +434,9 @@ public partial class App : IDisposable
             Current.Dispatcher.Invoke(() =>
             {
                 if (Global.IsHotFix4055002Installed && exception is XamlParseException && exception.InnerException is TargetInvocationException)
-                    ExceptionDialog.Ok(exception, "ScreenToGif", "Error while rendering visuals", exception.Message);
+                    ExceptionDialog.Ok(exception, "K-x录动", "Error while rendering visuals", exception.Message);
                 else
-                    ExceptionDialog.Ok(exception, "ScreenToGif", "Unhandled exception", exception.Message);
+                    ExceptionDialog.Ok(exception, "K-x录动", "Unhandled exception", exception.Message);
             });
 
             //By removing the exception, the same exception can be displayed later.

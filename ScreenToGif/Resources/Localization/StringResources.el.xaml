@@ -39,22 +39,22 @@
     <s:String x:Key="S.Required">Υποχρεωτικό πεδίο</s:String>
     <s:String x:Key="S.Warning.Single.Title">Επιτρέπεται μόνο ένα περιστατικό</s:String>
     <s:String x:Key="S.Warning.Single.Header">Η εφαρμογή εκτελείται ήδη</s:String>
-    <!--<s:String x:Key="S.Warning.Single.Message">Το ScreenToGif εκτελείται ήδη, but apparently there's no window open. Check you system tray, a ScreenToGif icon must be there.</s:String>-->
+    <!--<s:String x:Key="S.Warning.Single.Message">Το K-x录动 εκτελείται ήδη, but apparently there's no window open. Check you system tray, a K-x录动 icon must be there.</s:String>-->
     
     <s:String x:Key="S.SavingSettings.Title">Αποθήκευση των ρυθμίσεων</s:String>
     <!--<s:String x:Key="S.SavingSettings.Instruction">Would you like to try to save it again?</s:String>-->
-    <!--<s:String x:Key="S.SavingSettings.Message">Looks like ScreenToGif does not have enough privileges to save the settings to the disk.&#10;&#10;Would you like to try again, but this time using administrative privileges?</s:String>-->
+    <!--<s:String x:Key="S.SavingSettings.Message">Looks like K-x录动 does not have enough privileges to save the settings to the disk.&#10;&#10;Would you like to try again, but this time using administrative privileges?</s:String>-->
     
-    <s:String x:Key="S.Exiting.Title">Έξοδος από το ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">Έξοδος από το K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Είστε βέβαιοι ότι θέλετε να βγείτε?</s:String>
     <s:String x:Key="S.Exiting.Message">Όλα τα παράθυρα θα κλείσουν και το εικονίδιο στην γραμμή εργασιών θα αφαιρεθεί.</s:String>
 
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Switch Graphics Adapter</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Switch to the correct graphics adapter to capture the selected screen</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">Due to a limitation in DirectX, ScreenToGif must be running on the same graphics adapter as the screen being captured.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Switch the graphics adapter set for ScreenToGif by opening Windows Settings > System > Display > Graphics Settings, or by clicking on the link below.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Switch the graphics adapter for ScreenToGif by opening the graphics settings of your graphics adapter.</s:String>-->
+    <s:String x:Key="S.Warning.Graphics.Message">Due to a limitation in DirectX, K-x录动 must be running on the same graphics adapter as the screen being captured.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Switch the graphics adapter set for K-x录动 by opening Windows Settings > System > Display > Graphics Settings, or by clicking on the link below.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Switch the graphics adapter for K-x录动 by opening the graphics settings of your graphics adapter.</s:String>-->
     <s:String x:Key="S.Warning.Graphics.Switch">Άνοιγμα ρυθμίσεων των Windows</s:String>
     
     <!--Keys-->
@@ -144,7 +144,7 @@
     <s:String x:Key="S.Command.ViewHistory">Προβολή ιστορικού</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Εκκίνηση</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Εκκίνηση</s:String>
     <s:String x:Key="S.StartUp.Recorder">Καταγραφέας</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Ανοίγει τη συσκευή εγγραφής οθόνης, όπου μπορείτε εύκολα να ξεκινήσετε την εγγραφή της οθόνης σας.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Κάμερα web</s:String>
@@ -158,7 +158,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Λαμβάνει την πιο πρόσφατη έκδοση του ScreenToGif.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Ενημέρωση</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Ενημέρωση</s:String>
     <s:String x:Key="S.Updater.Header">Μια νέα ενημέρωση ειναι διαθέσιμη</s:String>
     <s:String x:Key="S.Updater.NewRelease">Νέα κυκλοφορία!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Νέα κυκλοφορία διαθέσιμη, έκδοση {0}!&#x0d;Click here for more details.</s:String>
@@ -179,12 +179,12 @@
     <!--<s:String x:Key="S.Updater.Warning.Encoding">You need to wait for all encodings to finish before updating.</s:String>-->
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Λήψη</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Λήψη</s:String>
     <s:String x:Key="S.Downloader.Header">Πρόγραμμα λήψης</s:String>
     <s:String x:Key="S.Downloader.Size">{0} από {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Επιλογές</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Επιλογές</s:String>
     <s:String x:Key="S.Options.App">Εφαρμογή</s:String>
     <s:String x:Key="S.Options.Recorder">Καταγραφέας</s:String>
     <s:String x:Key="S.Options.Editor">Επεξεργαστής</s:String>
@@ -472,7 +472,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(σε ημέρες, οποιοδήποτε κλειστό έργο παλαιότερο από αυτό θα διαγραφεί / απορριφθεί μετά το άνοιγμα της εφαρμογής)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Εκκαθάριση προσωρινής μνήμης</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Εκκαθάριση προσωρινής μνήμης</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Θέλετε να διαγράψετε το φάκελο προσωρινής μνήμης?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Όταν δημιουργείτε μια εγγραφή ή ανοίγετε κάτι για επεξεργασία, ένα έργο δημιουργείται και αποθηκεύεται μέσα στο φάκελο cache.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Θέλετε να καταργήσετε αυτά τα έργα από το φάκελο cache?</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Κάντε κλικ ή πατήστε τα πλήκτρα για λήψη</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Προσκόλληση στο Παράθυρο (σύρετε, έπειτα απελευθερώστε για Προσκόλληση)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Προ-εκκίνηση</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (σε παύση)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (σε παύση)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Διακοπή...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Προ-εκκίνηση ...</s:String>
     
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Αυτή η ενέργεια θα απορρίψει την εγγραφή, αφαιρώντας όλα τα καρέ.&#x0d;Δεν μπορείτε να αναιρέσετε αυτήν τη λειτουργία.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Εγγραφή κάμερας Web</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Εγγραφή κάμερας Web</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Δεν εντοπίστηκε συσκευή βίντεο! :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Έλεγχος για συσκευές βίντεο.</s:String>
     <s:String x:Key="S.Webcam.Scale">Κλίμακα: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Αλλαγή της κλίμακας του βίντεο.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Εγγραφή πλακέτα</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Εγγραφή πλακέτα</s:String>
     <s:String x:Key="S.Board.AutoRecord">Αυτόματη εγγραφή</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Ενεργοποιεί την εγγραφή κατά την σχεδίαση.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Κρατημένο]</s:String>
@@ -906,7 +906,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Αντιγραφή συνδέσμου</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Έξοδος εντολών</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Έξοδος εντολών</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Έξοδος εντολών</s:String>
     
     <!--Notifications-->
@@ -914,7 +914,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Απόρριψη όλων των ειδοποιήσεων</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Επεξεργαστής</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Επεξεργαστής</s:String>
     <s:String x:Key="S.Editor.File">Αρχείο</s:String>
     <s:String x:Key="S.Editor.Home">Αρχική</s:String>
     <s:String x:Key="S.Editor.Playback">Αναπαραγωγή</s:String>
@@ -1348,7 +1348,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Ξεκινήστε την έκθεση των Πλήκτρων νωρίτερα.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Από (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Δεν υπάρχουν πλήκτρα στην εγγραφή σας.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Πρόγραμμα επεξεργασίας Πλήκτρων</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Πρόγραμμα επεξεργασίας Πλήκτρων</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Αριθμός καρέ</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Εντοπίστηκαν Πλήκτρα</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Αφαιρέστε το Πλήκτρο</s:String>
@@ -1544,7 +1544,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Κωδικοποιητής</s:String>
     <!--<s:String x:Key="S.SaveAs.Encoder.Quantizer">Encoder and quantizer</s:String>-->
     <!--<s:String x:Key="S.SaveAs.Encoder.Info">Encoder responsible for generating the output file.</s:String>-->
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Ενσωματωμένος κωδικοποιητής.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <!--<s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF Encoder.</s:String>-->

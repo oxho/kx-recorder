@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Programmet kræver Net Framework, for at fungere ordentligt.&#x0d;Vil du hente det nu?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Der tillades kun en instans</s:String>
     <s:String x:Key="S.Warning.Single.Header">Programmet kører allerede</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif kører allerede. Brug ikonet nede ved uret.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 kører allerede. Brug ikonet nede ved uret.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Gemmer indstillinger</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Vil du prøve at gemme igen?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">ScreenToGif mangler rettigheder til at gemme på disken.&#x0d;&#x0d;Vil du prøve igen som administrator?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">K-x录动 mangler rettigheder til at gemme på disken.&#x0d;&#x0d;Vil du prøve igen som administrator?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">Lukker ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">Lukker K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Vil du lukke?</s:String>
     <s:String x:Key="S.Exiting.Message">Alle vinduer lukkes og ikonet fjernes.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Skift grafikkort</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Skift grafikkort for at optage den valgte skærm</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">P.g.a. begrænsninger i DirectX, skal ScreenToGif bruge det samme grafikkort som den skærm der skal optages.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Skift grafikkort for ScreenToGif i Windows indstillinger > System > Skærm > Grafik, eller klik herunder.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Skift grafikkort for ScreenToGif i grafikkortets indstillinger.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">P.g.a. begrænsninger i DirectX, skal K-x录动 bruge det samme grafikkort som den skærm der skal optages.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Skift grafikkort for K-x录动 i Windows indstillinger > System > Skærm > Grafik, eller klik herunder.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Skift grafikkort for K-x录动 i grafikkortets indstillinger.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Windows indstillinger</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Vis historik</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Opstart</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Opstart</s:String>
     <s:String x:Key="S.StartUp.Recorder">Optag</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Åbner skærmoptageren, så du kan starte din optagelse.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Alle kodninger skal gennemføres, før du opdaterer.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Downloader</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Downloader</s:String>
     <s:String x:Key="S.Downloader.Header">Downloader</s:String>
     <s:String x:Key="S.Downloader.Size">{0} af {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Indstillinger</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Indstillinger</s:String>
     <s:String x:Key="S.Options.App">Program</s:String>
     <s:String x:Key="S.Options.Recorder">Optager</s:String>
     <s:String x:Key="S.Options.Editor">Redigér</s:String>
@@ -471,7 +471,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(dage før ældre projekter fjernes)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Ryd cache</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Ryd cache</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Vil du tømme cachemappen?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Når du optager eller redigerer, oprettes et projekt, som gemmes i cachemappen.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Vil du fjerne disse projekter fra cachemappen?</s:String>
@@ -675,7 +675,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Klik eller tast for at starte</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Snap til vindue (træk til vindue og slip)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Nedtælling</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (pauset)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (pauset)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Stopper...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Tæller ned...</s:String>
     
@@ -721,14 +721,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Optagelsen og alle tilhørende rammer fjernes.&#x0d;Kan ikke fortrydes.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Webcam</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Webcam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Enhed ikke fundet :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Søg efter enheder.</s:String>
     <s:String x:Key="S.Webcam.Scale">Skala: x{0:0.##}</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Tilpas videostørrelse.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Tavleoptager</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Tavleoptager</s:String>
     <s:String x:Key="S.Board.AutoRecord">Autooptag</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Optag når der tegnes.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Hold]</s:String>
@@ -896,7 +896,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Kopiér link</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - kommandoresultat</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - kommandoresultat</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Kommandoresultat</s:String>
     
     <!--Notifications-->
@@ -904,7 +904,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Afvis alle beskeder</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Redigering</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Redigering</s:String>
     <s:String x:Key="S.Editor.File">Fil</s:String>
     <s:String x:Key="S.Editor.Home">Hjem</s:String>
     <s:String x:Key="S.Editor.Playback">Afspil</s:String>
@@ -1339,7 +1339,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Vis tidligere.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Med (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Optagelsen har ingen anslag.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Tastetryk</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Tastetryk</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Rammenummer</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Genkendte taster</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Fjern tastetryk</s:String>
@@ -1533,7 +1533,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Kodning</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Kodning og farver</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Resultatets kodningsmetode.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Indbygget.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System">System</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Info">Systemets metode.</s:String>

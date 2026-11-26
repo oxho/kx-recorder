@@ -77,7 +77,10 @@ public partial class Encoder : IEncoding
     public void EncodingUpdated(int? id = null, bool onlyStatus = false)
     {
         if (onlyStatus)
+        {
+            NotificationBox.RefreshCompletedExports();
             return;
+        }
 
         _encoder?.NotificationBox.UpdateEncoding(id);
     }

@@ -148,7 +148,7 @@ public partial class PluginSettings : Page
 
     private void SeeErrorFFmpeg_Executed(object sender, ExecutedRoutedEventArgs e)
     {
-        ErrorDialog.Ok("ScreenToGif", "Error downloading/unpacking FFmpeg", _viewModel.FFmpegError.Message, _viewModel.FFmpegError);
+        ErrorDialog.Ok("K-x录动", "Error downloading/unpacking FFmpeg", _viewModel.FFmpegError.Message, _viewModel.FFmpegError);
     }
 
     private void BrowseFfmpeg_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -274,7 +274,7 @@ public partial class PluginSettings : Page
 
     private void SeeErrorGifski_Executed(object sender, ExecutedRoutedEventArgs e)
     {
-        ErrorDialog.Ok("ScreenToGif", "Error downloading/unpacking Gifski", _viewModel.GifskiError.Message, _viewModel.GifskiError);
+        ErrorDialog.Ok("K-x录动", "Error downloading/unpacking Gifski", _viewModel.GifskiError.Message, _viewModel.GifskiError);
     }
     
     private void BrowseGifski_Executed(object sender, ExecutedRoutedEventArgs e)

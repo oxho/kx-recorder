@@ -40,8 +40,8 @@
     <!--<s:String x:Key="S.Warning.Net.Message">In order to properly use this app, you need to download the correct version of the .Net Framework.&#10;Would you like to open the web page to download it?</s:String>-->
     <!--<s:String x:Key="S.Warning.Single.Title">Only one instance permitted</s:String>-->
     <!--<s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>-->
-    <!--<s:String x:Key="S.Warning.Single.Message">ScreenToGif is already running, but apparently there's no window open. Check you system tray, a ScreenToGif icon must be there.</s:String>-->
-    <s:String x:Key="S.Exiting.Title">Avslutar ScreenToGif</s:String>
+    <!--<s:String x:Key="S.Warning.Single.Message">K-x录动 is already running, but apparently there's no window open. Check you system tray, a K-x录动 icon must be there.</s:String>-->
+    <s:String x:Key="S.Exiting.Title">Avslutar K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Är det säkert du vill avsluta?</s:String>
     <s:String x:Key="S.Exiting.Message">Alla fönster kommer att stängas och aviseringsikonen kommer att tas bort.</s:String>
     
@@ -122,7 +122,7 @@
     <s:String x:Key="S.Command.Remove">Ta bort markerade objekt</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Uppstart</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Uppstart</s:String>
     <s:String x:Key="S.StartUp.Recorder">Inspelare</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Öppnar skärminspelaren, där du enkelt kan börja spela in din skärm.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webbkamera</s:String>
@@ -154,7 +154,7 @@
     <!--<s:String x:Key="S.Updater.Warning.Download">It was not possible to download the update.</s:String>-->
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Alternativ</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Alternativ</s:String>
     <s:String x:Key="S.Options.App">Applikation</s:String>
     <s:String x:Key="S.Options.Recorder">Inspelare</s:String>
     <s:String x:Key="S.Options.Editor">Redigerare</s:String>
@@ -397,7 +397,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(i dagar, kommer alla stängda projekt äldre än detta att tas bort/förkastas efter att appen har öppnats)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <!--<s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Clear Cache</s:String>-->
+    <!--<s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Clear Cache</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Info">When you create a recording or open something to edit, a project is created and stored inside the cache folder.</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
@@ -548,7 +548,7 @@
     
     <s:String x:Key="S.Recorder.SnapToWindow">Fäst mot fönster (Dra och släpp för att fästa)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Förhandsstarta</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (pausad)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (pausad)</s:String>
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
     
     <!--<s:String x:Key="S.Recorder.Warning.CaptureNotPossible">It was not possible to capture the screen</s:String>-->
@@ -572,14 +572,14 @@
     <s:String x:Key="S.Recorder.EscToCancel">Tryck på Esc för att avbryta</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Webbkamerainspelare</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Webbkamerainspelare</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Ingen videoenhet upptäcktes :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Leta efter videoenheter.</s:String>
     <s:String x:Key="S.Webcam.Scale">Skala: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Ändra skala på videon.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Ritbordsinspelaren</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Ritbordsinspelaren</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatisk inspelning</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Aktiverar inspelning medans du ritar.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Håll in]</s:String>
@@ -701,7 +701,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Kopiera länk</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Kommandoutmatning</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Kommandoutmatning</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Kommandoutmatning</s:String>
     
     <!--Notifications-->
@@ -709,7 +709,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Avvisa alla aviseringar</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Redigerare</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Redigerare</s:String>
     <s:String x:Key="S.Editor.File">Fil</s:String>
     <s:String x:Key="S.Editor.Home">Hem</s:String>
     <s:String x:Key="S.Editor.Playback">Uppspelning</s:String>
@@ -1111,7 +1111,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Starta utställningen av tangentkombinationer tidigare.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Med (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Det finns inga tangenttryckningar på din inspelning.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Tangenttrycksredigerare</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Tangenttrycksredigerare</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Bildrutenummer</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Upptäckta tangentkombinationer</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Ta bort tangentkombinationer</s:String>
@@ -1242,7 +1242,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">Kodare</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     
     <s:String x:Key="S.SaveAs.Encoder.System">System</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Tooltip">Använder en standardpalett.</s:String>

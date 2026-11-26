@@ -82,9 +82,20 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Expander Grid.Row="0" Header="{DynamicResource S.SaveAs.Type}" IsExpanded="{Binding IsSaveTypeExpanded, Source={x:Static t:UserSettings.All}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+        <StackPanel Grid.Row="0" Margin="10,6,5,8">
+            <TextBlock Text="{DynamicResource S.Preset.Attachment.Header}" Margin="0,0,0,4" FontWeight="SemiBold" Foreground="{DynamicResource Element.Foreground.Header}"/>
+            <UniformGrid Columns="3">
+                <Button Content="5 MB" Tag="S.Preset.Attachment.5" Click="SelectAttachment" Padding="3" Margin="0,0,4,0"/>
+                <Button Content="10 MB" Tag="S.Preset.Attachment.10" Click="SelectAttachment" Padding="3" Margin="0,0,4,0"/>
+                <Button Content="25 MB" Tag="S.Preset.Attachment.25" Click="SelectAttachment" Padding="3"/>
+            </UniformGrid>
+            <TextBlock x:Name="AttachmentEstimate" Visibility="Collapsed" Margin="0,5,0,0" TextWrapping="Wrap" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+        </StackPanel>
+
+        <Expander Grid.Row="1" Header="{DynamicResource S.SaveAs.Type}" IsExpanded="{Binding IsSaveTypeExpanded, Source={x:Static t:UserSettings.All}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -148,7 +159,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="1" x:Name="EncoderExpander" Header="{DynamicResource S.SaveAs.Encoder}" IsExpanded="{Binding IsEncoderExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+        <Expander Grid.Row="2" x:Name="EncoderExpander" Header="{DynamicResource S.SaveAs.Encoder}" IsExpanded="{Binding IsEncoderExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -167,7 +178,7 @@
                         </Style>
                     </ComboBox.ItemContainerStyle>
 
-                    <i:GenericItem x:Name="EncoderScreenToGifItem" Title="ScreenToGif" Description="{DynamicResource S.SaveAs.Encoder.ScreenToGif.Info}"
+                    <i:GenericItem x:Name="EncoderScreenToGifItem" Title="K-x录动" Description="{DynamicResource S.SaveAs.Encoder.ScreenToGif.Info}"
                                    Value="{x:Static e:EncoderTypes.ScreenToGif}" ImageId="Vector.Logo"/>
 
                     <i:GenericItem x:Name="EncoderKGySoftItem" Title="KGy SOFT" Description="{DynamicResource S.SaveAs.Encoder.KGySoft.Info}"
@@ -205,7 +216,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="2" x:Name="EncoderOptionsExpander" Header="{DynamicResource S.SaveAs.Encoder.Options}" IsExpanded="{Binding IsEncoderOptionsExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+        <Expander Grid.Row="3" x:Name="EncoderOptionsExpander" Header="{DynamicResource S.SaveAs.Encoder.Options}" IsExpanded="{Binding IsEncoderOptionsExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             <Grid x:Name="EncoderGrid">
                 <!--Apng-->
                 <Grid x:Name="EmbeddedApngOptionsGrid" Margin="10,0,0,0" Visibility="Collapsed">
@@ -1361,7 +1372,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="3" x:Name="SaveOptionsExpander" Header="{DynamicResource S.SaveAs.SaveOptions}" IsExpanded="{Binding IsExportOptionsExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+        <Expander Grid.Row="4" x:Name="SaveOptionsExpander" Header="{DynamicResource S.SaveAs.SaveOptions}" IsExpanded="{Binding IsExportOptionsExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             <Grid x:Name="SaveGrid">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -1444,7 +1455,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="4" x:Name="PartialExportExpander" Header="{DynamicResource S.SaveAs.Partial}" IsExpanded="{Binding IsPartialExportExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, FallbackValue=False}"
+        <Expander Grid.Row="5" x:Name="PartialExportExpander" Header="{DynamicResource S.SaveAs.Partial}" IsExpanded="{Binding IsPartialExportExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, FallbackValue=False}"
                   Visibility="{Binding ElementName=PartialExportCheckBox, Path=IsChecked, Converter={StaticResource Bool2Visibility}}">
             <Grid Margin="10,0,0,0">
                 <Grid.RowDefinitions>
@@ -1533,7 +1544,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="5" x:Name="OutputExpander" Header="{DynamicResource S.SaveAs.File}" IsExpanded="{Binding IsOutputExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+        <Expander Grid.Row="6" x:Name="OutputExpander" Header="{DynamicResource S.SaveAs.File}" IsExpanded="{Binding IsOutputExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                   Visibility="{Binding ElementName=SaveFileCheckBox, Path=IsChecked, Converter={StaticResource Bool2Visibility}}">
             <Grid>
                 <Grid.RowDefinitions>
@@ -1597,7 +1608,7 @@
             </Grid>
         </Expander>
 
-        <Expander Grid.Row="6" x:Name="UploadExpander" Header="{DynamicResource S.SaveAs.Upload}" IsExpanded="{Binding IsUploadExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, FallbackValue=True}"
+        <Expander Grid.Row="7" x:Name="UploadExpander" Header="{DynamicResource S.SaveAs.Upload}" IsExpanded="{Binding IsUploadExpanded, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, FallbackValue=True}"
                   Visibility="{Binding ElementName=UploadFileCheckBox, Path=IsChecked, Converter={StaticResource Bool2Visibility}}">
             <Grid>
                 <Grid.RowDefinitions>

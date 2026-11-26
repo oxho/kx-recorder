@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:n="clr-namespace:ScreenToGif.Controls"
         xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
-        x:Name="GhostWindow" Title="ScreenToGif" Height="Auto" Width="Auto"
+        x:Name="GhostWindow" Title="K-x录动" Height="Auto" Width="Auto"
         WindowStyle="None" AllowsTransparency="True" Topmost="True" ResizeMode="NoResize"
         UseLayoutRounding="True" SnapsToDevicePixels="True" Background="Transparent" ShowInTaskbar="False">
 

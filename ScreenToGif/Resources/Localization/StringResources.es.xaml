@@ -40,8 +40,8 @@
     <s:String x:Key="S.Warning.Net.Message">Con el fin de utilizar correctamente esta aplicación, es necesario descargar la versión correcta de la .Net Framework.&#10;¿Desea abrir la página web para descargarlo?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Solo se permite una instancia</s:String>
     <s:String x:Key="S.Warning.Single.Header">La aplicación ya se está ejecutando</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif ya se está ejecutando, pero aparentemente no hay ninguna ventana abierta. Compruebe que la bandeja del sistema, un icono ScreenToGif debe estar allí.</s:String>
-    <s:String x:Key="S.Exiting.Title">Saliendo de ScreenToGif</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 ya se está ejecutando, pero aparentemente no hay ninguna ventana abierta. Compruebe que la bandeja del sistema, un icono K-x录动 debe estar allí.</s:String>
+    <s:String x:Key="S.Exiting.Title">Saliendo de K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">¿Estas seguro de querer salir?</s:String>
     <s:String x:Key="S.Exiting.Message">Todas las ventanas se cerrarán y se quitará el icono de la bandeja.</s:String>
     
@@ -160,7 +160,7 @@
     <s:String x:Key="S.Command.Remove">Eliminar elemento seleccionado</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Inicio</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Inicio</s:String>
     <s:String x:Key="S.StartUp.Recorder">Grabador</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Abrir la grabacion de pantalla, para iniciar facilmente la captura de tu pantalla.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -174,7 +174,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Descargar la última version de ScreenToGif</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Actualizador</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Actualizador</s:String>
     <s:String x:Key="S.Updater.Header">Una nueva actualización disponible</s:String>
     <s:String x:Key="S.Updater.NewRelease">¡Nueva actualización!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Nueva actualización disponible, Versión {0}!&#x0d;Click aquí para más detalles</s:String>
@@ -192,7 +192,7 @@
     <s:String x:Key="S.Updater.Warning.Download">No fue posible descargar la actualización.</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Opciones</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Opciones</s:String>
     <s:String x:Key="S.Options.App">Aplicación</s:String>
     <s:String x:Key="S.Options.Recorder">Grabador</s:String>
     <s:String x:Key="S.Options.Editor">Editor</s:String>
@@ -435,7 +435,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(en días, cualquier proyecto cerrado anterior a este será borrado/descartado después de abrir la aplicación)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Borrar caché</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Borrar caché</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">¿Desea borrar la carpeta de caché?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Al crear una grabación o abrir algo para editar, se crea un proyecto y se almacena dentro de la carpeta de caché.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">¿Desea eliminar estos proyectos de la carpeta de caché?</s:String>
@@ -586,7 +586,7 @@
     
     <s:String x:Key="S.Recorder.SnapToWindow">Ajustar a la ventana (Arrastrar y soltar para ajustar)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Pre-Inicio</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Pausado)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Pausado)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Parando...</s:String>
     
     <s:String x:Key="S.Recorder.Warning.CaptureNotPossible">No fue posible capturar la pantalla</s:String>
@@ -610,14 +610,14 @@
     <s:String x:Key="S.Recorder.EscToCancel">Presiona Esc para cancelar</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Grabadora Webcam</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Grabadora Webcam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Servicios de video no detectados :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Ver los servicios de video</s:String>
     <s:String x:Key="S.Webcam.Scale">Escala: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Cambiar la escala del video</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Grabación de Pizarra</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Grabación de Pizarra</s:String>
     <s:String x:Key="S.Board.AutoRecord">Auto Grabación</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Activar la grabación mientras dibujas.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Presionar]</s:String>
@@ -739,7 +739,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Copiar enlace</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Salida de comando</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Salida de comando</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Salida de comando</s:String>
     
     <!--Notifications-->
@@ -747,7 +747,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Descartar todas las notificaciones</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Editor</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Editor</s:String>
     <s:String x:Key="S.Editor.File">Archivo</s:String>
     <s:String x:Key="S.Editor.Home">Inicio</s:String>
     <s:String x:Key="S.Editor.Playback">Reproducción</s:String>
@@ -1148,7 +1148,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Iniciar la exposición de las pulsaciones de teclas antes.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Por (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">No hay teclas presionadas en su grabación.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Editor de pulsaciones de teclas</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Editor de pulsaciones de teclas</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Número de fotogramas</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Pulsaciones de teclas detectadas</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Eliminar pulsaciones de teclas</s:String>
@@ -1279,7 +1279,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">Codificar</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     
     <s:String x:Key="S.SaveAs.Encoder.System">Sistema</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Tooltip">Usa una paleta por defecto</s:String>

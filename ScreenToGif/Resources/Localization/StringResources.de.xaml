@@ -39,22 +39,22 @@
     <s:String x:Key="S.Required">Pflichtfeld</s:String>
     <s:String x:Key="S.Warning.Single.Title">Nur eine Instanz zulässig</s:String>
     <s:String x:Key="S.Warning.Single.Header">Die App wird bereits ausgeführt</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif wird bereits ausgeführt, aber anscheinend ist kein Fenster geöffnet. Bitte überprüfen Sie den Infobereich der Taskleiste, dort muss ein ScreenToGif-Symbol vorhanden sein.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 wird bereits ausgeführt, aber anscheinend ist kein Fenster geöffnet. Bitte überprüfen Sie den Infobereich der Taskleiste, dort muss ein K-x录动-Symbol vorhanden sein.</s:String>
 
     <s:String x:Key="S.SavingSettings.Title">Einstellungen speichern</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Möchten Sie versuchen, es erneut zu speichern?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Scheinbar verfügt ScreenToGif nicht über genügend Rechte, um die Einstellungen auf der Festplatte zu speichern.&#10;&#10;Möchten Sie versuchen, mit Administratorrechten erneut zu speichern?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Scheinbar verfügt K-x录动 nicht über genügend Rechte, um die Einstellungen auf der Festplatte zu speichern.&#10;&#10;Möchten Sie versuchen, mit Administratorrechten erneut zu speichern?</s:String>
 
-    <s:String x:Key="S.Exiting.Title">ScreenToGif wird beendet</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动 wird beendet</s:String>
     <s:String x:Key="S.Exiting.Instruction">Möchten Sie das Programm wirklich beenden?</s:String>
     <s:String x:Key="S.Exiting.Message">Alle Fenster werden geschlossen und das Programmsymbol wird aus dem Infobereich der Taskleiste entfernt.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Grafikkarte wechseln</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Auf die richtige Grafikkarte umschalten, um den ausgewählten Bildschirm erfassen zu können</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">Aufgrund einer Einschränkung in DirectX muss ScreenToGif die gleiche Grafikkarte verwenden wie der zu erfassende Bildschirm.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Wechseln Sie die für ScreenToGif eingestellte Grafikkarte, indem Sie Windows-Einstellungen ➜ „System” ➜ „Anzeige” ➜ „Grafikeinstellungen” öffnen, oder auf den folgenden Link klicken.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Wechseln Sie die Grafikkarte für ScreenToGif, indem Sie die Grafikeinstellungen Ihrer Grafikkarte öffnen.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">Aufgrund einer Einschränkung in DirectX muss K-x录动 die gleiche Grafikkarte verwenden wie der zu erfassende Bildschirm.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Wechseln Sie die für K-x录动 eingestellte Grafikkarte, indem Sie Windows-Einstellungen ➜ „System” ➜ „Anzeige” ➜ „Grafikeinstellungen” öffnen, oder auf den folgenden Link klicken.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Wechseln Sie die Grafikkarte für K-x录动, indem Sie die Grafikeinstellungen Ihrer Grafikkarte öffnen.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Windows-Einstellungen öffnen</s:String>
     
     <!--Keys-->
@@ -177,7 +177,7 @@
     <s:String x:Key="S.Command.ViewHistory">Verlauf anzeigen</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif • Start</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 • Start</s:String>
     <s:String x:Key="S.StartUp.Recorder">Rekorder</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Startet die Bildschirmaufnahme, mit dem Sie Ihren Bildschirm aufnehmen können.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -191,7 +191,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Lädt die neueste Version von ScreenToGif herunter.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif • Aktualisierungen</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 • Aktualisierungen</s:String>
     <s:String x:Key="S.Updater.Header">Ein neue Version ist verfügbar!</s:String>
     <s:String x:Key="S.Updater.NewRelease">Neue Version!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Neue Version {0} kann heruntergeladen werden! Für weitere Details bitte hier klicken.</s:String>
@@ -212,12 +212,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Sie müssen warten, bis alle Umwandlungen abgeschlossen sind, bevor Sie die Aktualisierung durchführen.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif • Downloader</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 • Downloader</s:String>
     <s:String x:Key="S.Downloader.Header">Downloader</s:String>
     <s:String x:Key="S.Downloader.Size">{0} von {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif • Einstellungen</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 • Einstellungen</s:String>
     <s:String x:Key="S.Options.App">Allgemein</s:String>
     <s:String x:Key="S.Options.Recorder">Rekorder</s:String>
     <s:String x:Key="S.Options.Editor">Editor</s:String>
@@ -505,7 +505,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(in Tagen. Jedes Projekt älter als diese Angabe wird beim Öffnen des Editors gelöscht)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif • Zwischenspeicher leeren</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 • Zwischenspeicher leeren</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Möchten Sie den Cache-Ordner leeren?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Wenn Sie eine Aufnahme erstellen oder etwas zur Bearbeitung öffnen, wird ein Projekt erstellt und im Cache-Ordner gespeichert.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Möchten Sie diese Projekte aus dem Cache-Ordner entfernen?</s:String>
@@ -710,7 +710,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Klicken oder drücken Sie die Tasten zum Aufnehmen</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Durch Ziehen und Loslassen ans Fenster andocken</s:String>
     <s:String x:Key="S.Recorder.PreStart">Aufnahme startet in:</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Pause)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Pause)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Wird angehalten …</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Countdown …</s:String>
     
@@ -756,14 +756,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Diese Aktion verwirft die Aufnahme und entfernt alle Einzelbilder (Frames).&#x0d;Dieser Vorgang kann nicht widerrufen werden.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif • Webcam-Aufzeichnung</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 • Webcam-Aufzeichnung</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Kein Videogerät gefunden</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Videogeräte suchen</s:String>
     <s:String x:Key="S.Webcam.Scale">Skalierung: {0:0.##} x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Videogröße ändern</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif • Handzeichnungs-Aufnahme</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 • Handzeichnungs-Aufnahme</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatisch aufzeichnen</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Ermöglicht Aufnahme während des Zeichnens</s:String>
     <s:String x:Key="S.Board.CtrlHold">Strg [Halten]</s:String>
@@ -939,7 +939,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Link kopieren</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif • Befehlsausgabe</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 • Befehlsausgabe</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Befehlsausgabe</s:String>
     
     <!--Notifications-->
@@ -947,7 +947,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Alle Benachrichtigungen verwerfen</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif • Editor</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 • Editor</s:String>
     <s:String x:Key="S.Editor.File">Datei</s:String>
     <s:String x:Key="S.Editor.Home">Start</s:String>
     <s:String x:Key="S.Editor.Playback">Wiedergabe</s:String>
@@ -1385,7 +1385,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Anzeige der Tastatureingaben früher beginnen</s:String>
     <s:String x:Key="S.KeyStrokes.By">um (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Keine Tastatureingaben in Ihrer Aufnahme</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif • Tastatureingaben-Editor</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 • Tastatureingaben-Editor</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Frame-Nummer</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Tastatureingabe erkannt</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Tastatureingabe entfernen</s:String>
@@ -1581,7 +1581,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Umwandlung</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Umwandlung und Quantisierung</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Umwandlung, die für die Erzeugung der Ausgabedatei verantwortlich ist.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Integrierte Umwandlung.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT • GIF-Encoder</s:String>

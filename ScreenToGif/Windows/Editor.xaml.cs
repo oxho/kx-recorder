@@ -275,9 +275,6 @@ namespace ScreenToGif.Windows
             Arguments.ClearAutomationArgs();
 
             RibbonTabControl.SelectedIndex = 0;
-
-            WelcomeTextBlock.Text = LocalizationHelper.Get(Humanizer.WelcomeInfo());
-            SymbolTextBlock.Text = Humanizer.Welcome();
         }
 
         private void Window_Activated(object sender, EventArgs e)
@@ -1005,7 +1002,7 @@ namespace ScreenToGif.Windows
             }
             catch (Exception ex)
             {
-                ErrorDialog.Ok("ScreenToGif", "Error while trying to load", ex.Message, ex);
+                ErrorDialog.Ok("K-x录动", "Error while trying to load", ex.Message, ex);
                 return;
             }
 
@@ -3595,7 +3592,7 @@ namespace ScreenToGif.Windows
                             catch (Exception e)
                             {
                                 LogWriter.Log(e, "Error while applying automatic task");
-                                Dispatcher.Invoke(() => { ExceptionDialog.Ok(e, "ScreenToGif", "Error while executing a task", e.Message); });
+                                Dispatcher.Invoke(() => { ExceptionDialog.Ok(e, "K-x录动", "Error while executing a task", e.Message); });
                             }
                         }
 
@@ -3687,9 +3684,6 @@ namespace ScreenToGif.Windows
 
                 FilledList = false;
                 IsLoading = false;
-
-                WelcomeTextBlock.Text = LocalizationHelper.Get(Humanizer.WelcomeInfo());
-                SymbolTextBlock.Text = Humanizer.Welcome();
 
                 UpdateStatistics();
 
@@ -4133,7 +4127,7 @@ namespace ScreenToGif.Windows
             catch (Exception ex)
             {
                 LogWriter.Log(ex, "Importing project");
-                Dispatcher.Invoke(() => Dialog.Ok("ScreenToGif", "Impossible to load project", ex.Message));
+                Dispatcher.Invoke(() => Dialog.Ok("K-x录动", "Impossible to load project", ex.Message));
 
                 return [];
             }
@@ -5012,9 +5006,6 @@ namespace ScreenToGif.Windows
             FilledList = false;
             IsLoading = false;
 
-            WelcomeTextBlock.Text = LocalizationHelper.Get(Humanizer.WelcomeInfo());
-            SymbolTextBlock.Text = Humanizer.Welcome();
-
             UpdateStatistics();
 
             FrameListView.SelectionChanged += FrameListView_SelectionChanged;
@@ -5208,7 +5199,7 @@ namespace ScreenToGif.Windows
             {
                 LogWriter.Log(ex, "Loading list of recent");
 
-                Dispatcher.Invoke(() => ErrorDialog.Ok("ScreenToGif", "Error while enumerating recent projects", ex.Message, ex));
+                Dispatcher.Invoke(() => ErrorDialog.Ok("K-x录动", "Error while enumerating recent projects", ex.Message, ex));
             }
 
             #endregion

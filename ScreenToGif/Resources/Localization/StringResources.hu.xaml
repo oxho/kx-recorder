@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Az alkalmazás megfelelő használatához le kell töltened a .Net Framework-öt.&#xd0;Szeretnéd megnyitni a weboldalt a letöltéshez?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Csak egy példány engedélyezett</s:String>
     <s:String x:Key="S.Warning.Single.Header">Az alkalmazás már fut</s:String>
-    <s:String x:Key="S.Warning.Single.Message">A ScreenToGif már fut, de úgy tűnik, nincs ablak nyitva. Ellenőrizd a rendszertálcán, a ScreenToGif ikonnak ott kell lennie.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">A K-x录动 már fut, de úgy tűnik, nincs ablak nyitva. Ellenőrizd a rendszertálcán, a K-x录动 ikonnak ott kell lennie.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Beállítások mentése</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Megpróbálná újra menteni?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Úgy tűnik, hogy a ScreenToGif nem rendelkezik elég jogosultsággal ahhoz, hogy a beállításokat a lemezre mentse.&#10;&#10;Szeretnéd újra megpróbálni, de ezúttal rendszergazdai jogosultságokkal?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Úgy tűnik, hogy a K-x录动 nem rendelkezik elég jogosultsággal ahhoz, hogy a beállításokat a lemezre mentse.&#10;&#10;Szeretnéd újra megpróbálni, de ezúttal rendszergazdai jogosultságokkal?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">ScreenToGif bezárása</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动 bezárása</s:String>
     <s:String x:Key="S.Exiting.Instruction">Biztos vagy benne, hogy ki akarsz lépni?</s:String>
     <s:String x:Key="S.Exiting.Message">Minden ablak bezárul, és a tálca ikonja eltávolításra kerül.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Grafikus adapter váltás</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Válts a megfelelő grafikus adapterre a kiválasztott képernyő rögzítéséhez</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">A DirectX egyik korlátozása miatt a ScreenToGif-nek ugyanazon a grafikus adapteren kell futnia, mint a rögzítendő képernyőnek.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Váltsd át a ScreenToGif számára beállított grafikus adaptert a Gépház > Rendszer > Kijelző > Grafikai beállítások résznél, vagy az alábbi linkre kattintva.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Válts grafikus adaptert a ScreenToGif számára a grafikus adapter grafikai beállításainak megnyitásával.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">A DirectX egyik korlátozása miatt a K-x录动-nek ugyanazon a grafikus adapteren kell futnia, mint a rögzítendő képernyőnek.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Váltsd át a K-x录动 számára beállított grafikus adaptert a Gépház > Rendszer > Kijelző > Grafikai beállítások résznél, vagy az alábbi linkre kattintva.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Válts grafikus adaptert a K-x录动 számára a grafikus adapter grafikai beállításainak megnyitásával.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Gépház megnyitása</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Előzmények megtekintése</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Indítás</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Indítás</s:String>
     <s:String x:Key="S.StartUp.Recorder">Rögzítés</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Megnyitja a képernyőfelvevőt, ahol egyszerűen elkezdheted a képernyőd rögzítését.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webkamera</s:String>
@@ -161,7 +161,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Letölti a ScreenToGif legújabb verzióját.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Frissítő</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Frissítő</s:String>
     <s:String x:Key="S.Updater.Header">Egy új frissítés érhető el</s:String>
     <s:String x:Key="S.Updater.NewRelease">Új kiadás!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Új kiadás áll rendelkezésre, Verzió {0}!&#x0d;Kattints ide további részletekért.</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">A frissítés előtt meg kell várni, amíg az összes kódolás befejeződik.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Letöltő</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Letöltő</s:String>
     <s:String x:Key="S.Downloader.Header">Letöltő</s:String>
     <s:String x:Key="S.Downloader.Size">{0} / {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Beállítások</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Beállítások</s:String>
     <s:String x:Key="S.Options.App">Alkalmazás</s:String>
     <s:String x:Key="S.Options.Recorder">Felvevő</s:String>
     <s:String x:Key="S.Options.Editor">Szerkesztő</s:String>
@@ -473,7 +473,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(napokban, az ennél régebbi lezárt projektek törlődnek / elvetésre kerülnek&#x0d;az alkalmazás megnyitása után)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Gyorsítótár törlése</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Gyorsítótár törlése</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Szeretnéd törölni a gyorsítótár mappáját?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Amikor létrehozol egy felvételt, vagy megnyitsz valamit szerkesztésre, a projekt a gyorsítótár mappájában jön létre és tárolódik.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Szeretnéd eltávolítani ezeket a projekteket a gyorsítótár mappából?</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Kattints vagy nyomj meg billentyűket a rögzítéshez</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Igazítás ablakhoz (Húzás és felengedés az illesztéshez)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Kezdés előtt</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (szüneteltetve)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (szüneteltetve)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Megállítás...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Előindítás...</s:String>
     
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Ez a művelet elveti a felvételt, és eltávolítja az összes képkockát.&#x0d;A művelet nem vonható vissza.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Webkamera-felvevő</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Webkamera-felvevő</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Nem található videóeszköz :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Ellenőrizze a videóeszközöket.</s:String>
     <s:String x:Key="S.Webcam.Scale">Méretezés: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">A videó méretezésének módosítása.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Fehértábla-felvevő</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Fehértábla-felvevő</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatikus felvétel</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Felvétel bekapcsolása rajzolás közben.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Tartás]</s:String>
@@ -906,7 +906,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Link másolása</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Parancs kimenet</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Parancs kimenet</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Parancs kimenet</s:String>
     
     <!--Notifications-->
@@ -914,7 +914,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Az összes értesítés elvetése</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Szerkesztő</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Szerkesztő</s:String>
     <s:String x:Key="S.Editor.File">Fájl</s:String>
     <s:String x:Key="S.Editor.Home">Kezdőlap</s:String>
     <s:String x:Key="S.Editor.Playback">Visszajátszás</s:String>
@@ -1349,7 +1349,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">A billentyűleütések kiállítását korábban indítsa el.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Ennyivel (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Nincs billentyűleütés a felvételen.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Billentyűleütés-szerkesztő</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Billentyűleütés-szerkesztő</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Képkocka szám</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Észlelt billentyűleütések</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Billentyűleütés eltávolítása</s:String>
@@ -1543,7 +1543,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Kódoló</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Kódoló és kvantáló</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">A kimeneti fájl létrehozásáért felelős kódoló.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Beépített kódoló.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF kódoló.</s:String>

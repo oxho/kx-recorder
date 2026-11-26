@@ -61,7 +61,7 @@ public partial class ExceptionDialog
     {
         TypeTextBlock.Text = instruction;
         DetailsTextBlock.Inlines.Add(new Run("    " + observation));
-        Title = title ?? "ScreenToGif - Error";
+        Title = title ?? "K-x录动 - Error";
 
         if (BugWithHotFix4055002)
         {

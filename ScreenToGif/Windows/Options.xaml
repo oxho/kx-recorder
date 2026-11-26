@@ -50,6 +50,7 @@
                 <c:ExListViewItem Content="{DynamicResource S.Options.About}" Icon="{StaticResource Vector.Info}"/>
             </ListView>
 
+            <TextBlock Grid.Column="1" Text="K-x录动" Margin="12,6" FontWeight="SemiBold" FontSize="18" Foreground="{DynamicResource Element.Foreground.Header}"/>
             <Frame Grid.Row="1" Grid.Column="1" x:Name="Frame" JournalOwnership="UsesParentJournal" Focusable="False" IsTabStop="False"/>
         </Grid>
 

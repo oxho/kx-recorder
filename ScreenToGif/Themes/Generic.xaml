@@ -2215,6 +2215,7 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
                                 <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
                             <ScrollViewer Grid.Row="0" x:Name="MainScrollViewer" Focusable="False" Padding="{TemplateBinding Padding}" VerticalScrollBarVisibility="Auto">
@@ -2224,6 +2225,7 @@
                             <TextBlock Grid.Row="0" x:Name="EllipsesTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Height="46" Margin="0,-30,0,0" Text="..." 
                                        Foreground="{DynamicResource Element.Foreground.Gray112}" Visibility="Collapsed"/>
 
+                            <n:StudioBanner Grid.Row="2" x:Name="ExportBanner" Visibility="Collapsed"/>
                             <Grid Grid.Row="1" x:Name="ControlGrid" Background="{DynamicResource Panel.Background.Level2}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition/>
@@ -2255,6 +2257,10 @@
                             <Setter TargetName="EllipsesTextBlock" Property="Visibility" Value="Visible"/>
                         </MultiTrigger>
                         
+                        <Trigger Property="HasCompletedExport" Value="True">
+                            <Setter TargetName="ExportBanner" Property="Visibility" Value="Visible"/>
+                        </Trigger>
+
                         <Trigger Property="OnlyDisplayList" Value="True">
                             <Setter TargetName="ControlGrid" Property="Visibility" Value="Collapsed"/>
                         </Trigger>

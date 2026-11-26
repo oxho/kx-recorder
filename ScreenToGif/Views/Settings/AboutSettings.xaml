@@ -24,17 +24,12 @@
                 <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Background="{StaticResource Vector.Logo}" Height="50" Width="60" Margin="10" HorizontalAlignment="Center" 
                         Opacity="{DynamicResource Element.Opacity}"/>
 
-                <Label Grid.Row="0" Grid.Column="1" Content="ScreenToGif" FontSize="18" Margin="0,0,5,0" 
+                <Label Grid.Row="0" Grid.Column="1" Content="K-x录动" FontSize="18" Margin="0,0,5,0"
                        HorizontalAlignment="Right" VerticalContentAlignment="Center" Foreground="{DynamicResource Element.Foreground}"/>
 
                 <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal">
                     <Label Content="{DynamicResource S.Options.About.Version}" FontSize="18" VerticalContentAlignment="Center" Foreground="{DynamicResource Element.Foreground}"/>
                     <Label Content="{Binding Source={x:Static t:UserSettings.All}, Path=VersionText}" FontSize="18" VerticalContentAlignment="Center" Foreground="{DynamicResource Element.Foreground}"/>
-                    <Label x:Name="CheckForUpdatesLabel" VerticalContentAlignment="Center">
-                        <Hyperlink Click="CheckForUpdatesLabel_Click">
-                            <Run Text="{DynamicResource S.Options.About.UpdateCheck}"/>
-                        </Hyperlink>
-                    </Label>
                 </StackPanel>
 
                 <Label Grid.Row="1" Grid.Column="1" FontSize="16" HorizontalAlignment="Right" Cursor="Hand" Padding="3,5" VerticalContentAlignment="Center">
@@ -50,6 +45,7 @@
                            VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Collapsed"/>
             </Grid>
 
+            <TextBlock Margin="12,6,12,12" Text="开枝工作室 · 基于 ScreenToGif（Nicke Manarin）" HorizontalAlignment="Center" Foreground="{DynamicResource Element.Foreground.Medium}"/>
             <c:LabelSeparator Text="{DynamicResource S.Options.About.Contact}"/>
             <Grid>
                 <Grid.ColumnDefinitions>

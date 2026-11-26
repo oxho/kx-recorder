@@ -39,11 +39,11 @@
     <s:String x:Key="S.Required">الحقل المطلوب.</s:String>
     <s:String x:Key="S.Warning.Single.Title">يسمح بمثيل واحد فقط</s:String>
     <s:String x:Key="S.Warning.Single.Header">التطبيق يعمل بالفعل</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif قيد التشغيل بالفعل ، ولكن يبدو أنه لا توجد نافذة مفتوحة. تحقق من علبة النظام ، يجب أن يكون رمز ScreenToGif هناك.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 قيد التشغيل بالفعل ، ولكن يبدو أنه لا توجد نافذة مفتوحة. تحقق من علبة النظام ، يجب أن يكون رمز K-x录动 هناك.</s:String>
 
     <s:String x:Key="S.SavingSettings.Title">حفظ الإعدادات</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">هل ترغب في محاولة حفظه مرة أخرى؟</s:String>
-    <s:String x:Key="S.SavingSettings.Message">يبدو أن برنامج ScreenToGif لا يملك الصلاحيات الكافية لحفظ الإعدادات على القرص.&#10;&#10;هل ترغب في المحاولة مرة أخرى، ولكن هذه المرة باستخدام صلاحيات المسؤول؟</s:String>
+    <s:String x:Key="S.SavingSettings.Message">يبدو أن برنامج K-x录动 لا يملك الصلاحيات الكافية لحفظ الإعدادات على القرص.&#10;&#10;هل ترغب في المحاولة مرة أخرى، ولكن هذه المرة باستخدام صلاحيات المسؤول؟</s:String>
 
     <s:String x:Key="S.Exiting.Title">Gif انهاء الخلفية</s:String>
     <s:String x:Key="S.Exiting.Instruction">هل تريد بالتاكيد الخروج ؟</s:String>
@@ -52,9 +52,9 @@
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">محول رسومات Switch</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">قم بالتبديل إلى محول الرسومات الصحيح لالتقاط الشاشة المحددة</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">بسبب وجود قيود في DirectX، يجب تشغيل ScreenToGif على نفس محول الرسومات المستخدم في التقاط الشاشة.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">قم بتغيير مجموعة محول الرسومات الخاصة بـ ScreenToGif عن طريق فتح إعدادات Windows > النظام > العرض > إعدادات الرسومات، أو بالنقر على الرابط أدناه.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">قم بتبديل محول الرسومات الخاص ببرنامج ScreenToGif عن طريق فتح إعدادات الرسومات الخاصة بمحول الرسومات الخاص بك.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">بسبب وجود قيود في DirectX، يجب تشغيل K-x录动 على نفس محول الرسومات المستخدم في التقاط الشاشة.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">قم بتغيير مجموعة محول الرسومات الخاصة بـ K-x录动 عن طريق فتح إعدادات Windows > النظام > العرض > إعدادات الرسومات، أو بالنقر على الرابط أدناه.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">قم بتبديل محول الرسومات الخاص ببرنامج K-x录动 عن طريق فتح إعدادات الرسومات الخاصة بمحول الرسومات الخاص بك.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">افتح إعدادات ويندوز</s:String>
 
     <!--Keys-->
@@ -144,7 +144,7 @@
     <s:String x:Key="S.Command.ViewHistory">عرض السجل</s:String>
 
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif -بدء التشغيل</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 -بدء التشغيل</s:String>
     <s:String x:Key="S.StartUp.Recorder">المسجل</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">يفتح مسجل الشاشة ، حيث يمكنك بسهوله بدء تسجيل الشاشة.</s:String>
     <s:String x:Key="S.StartUp.Webcam">كاميرا ويب</s:String>
@@ -158,7 +158,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip"> ScreenToGif.تحميل اخر اصدار</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - تحديث</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - تحديث</s:String>
     <s:String x:Key="S.Updater.Header">يتوفر تحديث جديد</s:String>
     <s:String x:Key="S.Updater.NewRelease">اصدار جديد!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">اصدار جديد متوفر ، النسخة {0}! انقر هنا لمزيد من التفاصيل.</s:String>
@@ -179,12 +179,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">يجب عليك الانتظار حتى تنتهي جميع عمليات الترميز قبل التحديث.</s:String>
 
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - تنزيل</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - تنزيل</s:String>
     <s:String x:Key="S.Downloader.Header">المحمل</s:String>
     <s:String x:Key="S.Downloader.Size">{0} من {1}</s:String>
 
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - خيارات</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - خيارات</s:String>
     <s:String x:Key="S.Options.App">التطبيق</s:String>
     <s:String x:Key="S.Options.Recorder">المسجل</s:String>
     <s:String x:Key="S.Options.Editor">المحرر</s:String>
@@ -472,7 +472,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(في الايام ، اي مشروع مغلق اقدم من هذا سوف تمحي/التخلص منها بعد فتح التطبيق)</s:String>
 
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - مسح ذاكرة التخزين المؤقت</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - مسح ذاكرة التخزين المؤقت</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">هل ترغب في مسح مجلد ذاكرة التخزين المؤقت؟</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">عند إنشاء تسجيل أو فتح شيء ما لتحريره، يتم إنشاء مشروع وتخزينه داخل مجلد ذاكرة التخزين المؤقت.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">هل ترغب في إزالة هذه المشاريع من مجلد التخزين المؤقت؟</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">انقر أو اضغط على المفاتيح لالتقاط الصورة</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">(التقاط النافذة (سحب والافراج عن اللقطة</s:String>
     <s:String x:Key="S.Recorder.PreStart">قبل البدء</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif -(متوقف)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 -(متوقف)</s:String>
     <s:String x:Key="S.Recorder.Stopping">جارٍ الإيقاف...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">جارٍ البدء المسبق...</s:String>
 
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">سيؤدي هذا الإجراء إلى حذف التسجيل، وإزالة جميع الإطارات. لا يمكنك التراجع عن هذه العملية.</s:String>
 
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title"> ScreenToGif - مسجل كاميرا ويب </s:String>
+    <s:String x:Key="S.Webcam.Title"> K-x录动 - مسجل كاميرا ويب </s:String>
     <s:String x:Key="S.Webcam.NoVideo">لم يتم الكشف عن اي جهاز فيديو:(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">التحقق من وجود اجهزه الفيديو.</s:String>
     <s:String x:Key="S.Webcam.Scale"> {0:0.##} x :المقياس</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">تغيير مقياس الفيديو.</s:String>
 
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title"> ScreenToGif-مسجلة لوحة</s:String>
+    <s:String x:Key="S.Board.Title"> K-x录动-مسجلة لوحة</s:String>
     <s:String x:Key="S.Board.AutoRecord">تسجيل تلقائي</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">يتيح التسجيل اثناء الرسم.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Hold]</s:String>
@@ -906,7 +906,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">انسخ الرابط</s:String>
 
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif -اخراج الاوامر</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 -اخراج الاوامر</s:String>
     <s:String x:Key="S.Encoder.Command.Header">اخراج الاوامر</s:String>
 
     <!--Notifications-->
@@ -914,7 +914,7 @@
     <s:String x:Key="S.Notifications.Dismiss">استبعاد كافة الإشعارات</s:String>
 
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - محرر</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - محرر</s:String>
     <s:String x:Key="S.Editor.File">ملف</s:String>
     <s:String x:Key="S.Editor.Home">الرئيسية</s:String>
     <s:String x:Key="S.Editor.Playback">الإعادة</s:String>
@@ -1350,7 +1350,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">ابدأ معرض ضربات المفاتيح في وقت سابق.</s:String>
     <s:String x:Key="S.KeyStrokes.By">(ms) بواسطة:</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">لا يوجد ضربات المفاتيح على تسجيلك.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - محرر ضربات المفاتيح</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - محرر ضربات المفاتيح</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">رقم الاطار</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">ضربات المفاتيح المكتشفة</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">ازاله ضربات المفاتيح</s:String>
@@ -1546,7 +1546,7 @@
     <s:String x:Key="S.SaveAs.Encoder">المرمز</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">المرمز والمكمم</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">المرمز المسؤول عن إنشاء ملف الإخراج.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">مرمز مدمج</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">مرمز GIF من KGy SOFT</s:String>

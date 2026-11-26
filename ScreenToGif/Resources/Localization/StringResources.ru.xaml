@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Для того, чтобы использовать это приложение, вам необходимо загрузить правильную версию .Net Framework.&#10;Открыть веб-страницу загрузки?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Разрешен только один экземпляр</s:String>
     <s:String x:Key="S.Warning.Single.Header">Приложение уже запущено</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif уже работает, но, по-видимому, нет открытого окна. Проверьте системный трей, значок ScreenToGif должен быть там.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 уже работает, но, по-видимому, нет открытого окна. Проверьте системный трей, значок K-x录动 должен быть там.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Сохранение настроек</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Хотите попробовать сохранить его снова?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Похоже, у ScreenToGif недостаточно прав для сохранения настроек на диск.&#10;&#10;Хотите попробовать еще раз, но уже с правами администратора?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Похоже, у K-x录动 недостаточно прав для сохранения настроек на диск.&#10;&#10;Хотите попробовать еще раз, но уже с правами администратора?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">Выход из ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">Выход из K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Вы уверены, что хотите выйти?</s:String>
     <s:String x:Key="S.Exiting.Message">Все окна и значок в трее будут закрыты.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Переключите графический адаптер</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Переключитесь на правильный графический адаптер, чтобы сделать снимок выбранного экрана.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">Из-за ограничений DirectX ScreenToGif должен работать на том же графическом адаптере, что и захватываемый экран.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Переключите графический адаптер, установленный для ScreenToGif, открыв Windows Settings > System > Display > Graphics Settings или нажав на ссылку ниже.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Переключите графический адаптер для ScreenToGif, в настройках графического адаптера.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">Из-за ограничений DirectX K-x录动 должен работать на том же графическом адаптере, что и захватываемый экран.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Переключите графический адаптер, установленный для K-x录动, открыв Windows Settings > System > Display > Graphics Settings или нажав на ссылку ниже.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Переключите графический адаптер для K-x录动, в настройках графического адаптера.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Открыть настройки Windows</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Просмотр истории</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Запуск</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Запуск</s:String>
     <s:String x:Key="S.StartUp.Recorder">Запись</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Запись с экрана, легкий старт.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Веб-камера</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Перед обновлением нужно дождаться завершения всех обработок.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Загрузчик</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Загрузчик</s:String>
     <s:String x:Key="S.Downloader.Header">Загрузчик</s:String>
     <s:String x:Key="S.Downloader.Size">{0} из {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Настройки</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Настройки</s:String>
     <s:String x:Key="S.Options.App">Программа</s:String>
     <s:String x:Key="S.Options.Recorder">Захват экрана</s:String>
     <s:String x:Key="S.Options.Editor">Редактор</s:String>
@@ -473,7 +473,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">Любой закрытый проект старше этого времени будет удален при открытии программы.</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Очистка кэша</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Очистка кэша</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Хотите очистить папку кеша?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Когда вы делаете запись или открываете что-то для редактирования, проект создается и хранится в папке кэша.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Хотите удалить эти проекты из папки кэша?</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Щелкните или нажмите клавиши захвата</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Снимок окна (потяните и отпустите над окном)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Подготовка</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Пауза)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Пауза)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Остановка...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Ожидание старта...</s:String>
     
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Это действие приведет к отмене записи и удалению всех кадров&#x0d;Вы не сможете отменить эту операцию.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - запись с веб-камеры</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - запись с веб-камеры</s:String>
     <s:String x:Key="S.Webcam.NoVideo">У вас нет веб-камеры :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Поиск видео устройств.</s:String>
     <s:String x:Key="S.Webcam.Scale">Масштаб: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Изменить масштаб видео.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - запись с доски</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - запись с доски</s:String>
     <s:String x:Key="S.Board.AutoRecord">Автозапись</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Включать запись во время рисования.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl (удерживать)</s:String>
@@ -904,7 +904,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Скопировать ссылку</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Команды вывода</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Команды вывода</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Команды вывода</s:String>
     
     <!--Notifications-->
@@ -912,7 +912,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Отменить все</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Редактор</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Редактор</s:String>
     <s:String x:Key="S.Editor.File">Файл</s:String>
     <s:String x:Key="S.Editor.Home">Редактор</s:String>
     <s:String x:Key="S.Editor.Playback">Воспроизведение</s:String>
@@ -1347,7 +1347,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Начать показ нажатий клавиш раньше</s:String>
     <s:String x:Key="S.KeyStrokes.By">на (мс):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">На вашей записи нет нажатий клавиш</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Редактор нажатий клавиш</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Редактор нажатий клавиш</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Номера кадров</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Обнаружение нажатий клавиш</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Удаление нажатий клавиш</s:String>
@@ -1541,7 +1541,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Кодировщик</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Кодировщик и квантователь</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Кодировщик, ответственный за генерацию выходного файла.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Встроенный кодировщик.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT кодировщик.</s:String>

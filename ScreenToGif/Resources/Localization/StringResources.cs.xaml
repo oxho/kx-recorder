@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Abyste mohli tuto aplikaci bez problémů používat, potřebujete správnou verzi .Net Framework.&#10;Chcete otevřít webovou stránku pro její stažení?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Povolena pouze jedna instance</s:String>
     <s:String x:Key="S.Warning.Single.Header">Aplikace již je spuštěna</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif je již spuštěn, ale zřejmě není vidět žádné jeho okno. Zkontrolujte SysTray, ikona ScreenToGif by tam měla být...</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 je již spuštěn, ale zřejmě není vidět žádné jeho okno. Zkontrolujte SysTray, ikona K-x录动 by tam měla být...</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Uložit nastavení</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Chcete se pokusit znovu o uložení?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Vypadá to, že ScreenToGif nemá dostatečná práva k uložení nastavení na disk.&#10;&#10;Chcete to zkusit znovu, ale tentokrát s použitím práv správce?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Vypadá to, že K-x录动 nemá dostatečná práva k uložení nastavení na disk.&#10;&#10;Chcete to zkusit znovu, ale tentokrát s použitím práv správce?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">Ukončení ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">Ukončení K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Jste si jisti, že chcete aplikaci ukončit?</s:String>
     <s:String x:Key="S.Exiting.Message">Všechna okna budou uzavřena a ikona bude odstraněna z lišty.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Přepnutí grafického adaptéru</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Přepnutí na správný grafický adaptér pro zachycení vybrané obrazovky</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">Vzhledem k omezení DirectX musí být ScreenToGif spuštěn na stejném grafickém adaptéru jako snímaná obrazovka.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Přepněte grafický adaptér pro aplikaci ScreenToGif otevřením nabídky Nastavení systému Windows > Systém > Obrazovka > Nastavení grafiky nebo kliknutím na níže uvedený odkaz.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Přepněte grafický adaptér pro ScreenToGif pomocí nastavení grafického adaptéru.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">Vzhledem k omezení DirectX musí být K-x录动 spuštěn na stejném grafickém adaptéru jako snímaná obrazovka.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Přepněte grafický adaptér pro aplikaci K-x录动 otevřením nabídky Nastavení systému Windows > Systém > Obrazovka > Nastavení grafiky nebo kliknutím na níže uvedený odkaz.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Přepněte grafický adaptér pro K-x录动 pomocí nastavení grafického adaptéru.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Otevřít Nastavení Windows</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Zobrazit historii</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - spuštění</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - spuštění</s:String>
     <s:String x:Key="S.StartUp.Recorder">Záznamník</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Otevře záznamník, který umožňuje nahrát vybranou oblast obrazovky.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webová kamera</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Před aktualizací je nutné počkat na dokončení veškerého enkódování.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - stažení</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - stažení</s:String>
     <s:String x:Key="S.Downloader.Header">Stažení</s:String>
     <s:String x:Key="S.Downloader.Size">{0} z {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Nastavení</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Nastavení</s:String>
     <s:String x:Key="S.Options.App">Aplikace</s:String>
     <s:String x:Key="S.Options.Recorder">Nahrávání</s:String>
     <s:String x:Key="S.Options.Editor">Editor</s:String>
@@ -473,7 +473,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(Počet dní, po kterých budou starší projekty  odstraněny při otevření editoru.)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Vymazání mezipaměti/cache.</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Vymazání mezipaměti/cache.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Chcete vymazat složku mezipaměti/cache?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Když vytvoříte záznam nebo otevřete záznam k úpravě, vytvoří se projekt a uloží se do složky mezipaměti.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Chcete tyto projekty ze složky mezipaměti odstranit?</s:String>
@@ -676,7 +676,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Kliknutí nebo stisk klávesy pro sejmutí</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Přichytit k oknu (přetáhnout a uvolnit)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Před zahájením</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (pozastaven)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (pozastaven)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Zastavuji...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Před spuštěním...</s:String>
     
@@ -722,14 +722,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Touto akcí se záznam zahodí a odstraní se všechny snímky.&#x0d;Tuto operaci nelze vrátit zpět.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Záznamník webové kamery</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Záznamník webové kamery</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Nebylo nalezeno žádné zařízení pro nahrávání:(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Zkontrolovat webovou kameru.</s:String>
     <s:String x:Key="S.Webcam.Scale">Rozsah: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Změnit rozsah videa.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Záznamník plátna</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Záznamník plátna</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatické nahrávání</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Povoluje nahrávání během kreslení.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [podržet]</s:String>
@@ -903,7 +903,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Zkopírovat odkaz</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - příkaz výstupu</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - příkaz výstupu</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Příkaz výstupu</s:String>
     
     <!--Notifications-->
@@ -911,7 +911,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Skrýt všechna oznámení</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Editor</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Editor</s:String>
     <s:String x:Key="S.Editor.File">Soubor</s:String>
     <s:String x:Key="S.Editor.Home">Domů</s:String>
     <s:String x:Key="S.Editor.Playback">Přehrávání</s:String>
@@ -1345,7 +1345,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Zobrazovat stisknuté klávesy dříve.</s:String>
     <s:String x:Key="S.KeyStrokes.By">V (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Záznam neobsahuje žádné stisknuté klávesy.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Editor stisknutých kláves</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Editor stisknutých kláves</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Číslo snímku</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Zaznamenané klávesy</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Odstranit klávesu</s:String>
@@ -1541,7 +1541,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Kódování</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Enkódování a kvantizace</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Enkodér použitý při generování výstupního souboru.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Vnitřní enkodér</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF enkodér</s:String>

@@ -41,8 +41,8 @@
     <s:String x:Key="S.Warning.Net.Message">프로그램을 사용하기 위해, 적절한 버전의 .Net Framework를 다운로드 해야 합니다. &#10;다운로드 페이지를 여시겠습니까?</s:String>
     <s:String x:Key="S.Warning.Single.Title">한 작업만 수행할 수 있습니다</s:String>
     <s:String x:Key="S.Warning.Single.Header">프로그램이 이미 실행 중입니다</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif는 이미 실행중입니다. 그러나 열려있는 창이 없으므로 작업 표시줄의 아이콘을 확인하십시오.</s:String>
-    <s:String x:Key="S.Exiting.Title">ScreenToGif 종료</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动는 이미 실행중입니다. 그러나 열려있는 창이 없으므로 작업 표시줄의 아이콘을 확인하십시오.</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动 종료</s:String>
     <s:String x:Key="S.Exiting.Instruction">프로그램을 종료하겠습니까?</s:String>
     <s:String x:Key="S.Exiting.Message">모든 창을 닫고 작업 표시줄의 트레이 아이콘을 제거합니다.</s:String>
     
@@ -126,7 +126,7 @@
     <s:String x:Key="S.Command.Remove">선택된 것들 삭제하기</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - 시작</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - 시작</s:String>
     <s:String x:Key="S.StartUp.Recorder">녹화</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">화면을 손쉽게 녹화할 수 있는 화면 녹화기를 시작합니다.</s:String>
     <s:String x:Key="S.StartUp.Webcam">웹캠</s:String>
@@ -159,7 +159,7 @@
     <s:String x:Key="S.Updater.Warning.Download">업데이트에 실패했습니다.</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - 설정</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - 설정</s:String>
     <s:String x:Key="S.Options.App">프로그램</s:String>
     <s:String x:Key="S.Options.Recorder">녹화기</s:String>
     <s:String x:Key="S.Options.Editor">편집기</s:String>
@@ -430,7 +430,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(프로그램을 실행할 때 얼마나 오래된 프로젝트를 제거할지 일 단위로 설정합니다)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - 캐시 삭제</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - 캐시 삭제</s:String>
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
     <s:String x:Key="S.Options.Storage.Cache.Info">녹화 또는 편집 시 프로젝트가 캐시 폴더에 저장됩니다.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">아래의 프로젝트를 캐시 폴더에서 삭제할까요?</s:String>
@@ -583,7 +583,7 @@
     
     <s:String x:Key="S.Recorder.SnapToWindow">창 맞춤(끌어서 창에 놓으세요)</s:String>
     <s:String x:Key="S.Recorder.PreStart">타이머</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (일시 정지)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (일시 정지)</s:String>
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
     <s:String x:Key="S.Recorder.PreStarting">미리 시작 중...</s:String>
     
@@ -624,14 +624,14 @@
     <!--<s:String x:Key="S.Recorder.Discard.Message">This action will discard the recording, removing all frames.&#x0d;You can't undo this operation.</s:String>-->
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - 웹캠 녹화기</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - 웹캠 녹화기</s:String>
     <s:String x:Key="S.Webcam.NoVideo">인식된 장치가 없습니다 :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">비디오 장치 목록 새로고침</s:String>
     <s:String x:Key="S.Webcam.Scale">배율: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">비디오 배율 변경하기</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - 칠판 녹화기</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - 칠판 녹화기</s:String>
     <s:String x:Key="S.Board.AutoRecord">자동 녹화</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">그릴 때 자동으로 녹화합니다.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [누르기]</s:String>
@@ -753,7 +753,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">링크 복사</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - 명령어 출력</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - 명령어 출력</s:String>
     <s:String x:Key="S.Encoder.Command.Header">명령어 출력</s:String>
     
     <!--Notifications-->
@@ -761,7 +761,7 @@
     <s:String x:Key="S.Notifications.Dismiss">모든 알림 삭제</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - 편집기</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - 편집기</s:String>
     <s:String x:Key="S.Editor.File">파일</s:String>
     <s:String x:Key="S.Editor.Home">홈 화면</s:String>
     <s:String x:Key="S.Editor.Playback">재생</s:String>
@@ -1169,7 +1169,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">입력한 키 미리 표시하기</s:String>
     <s:String x:Key="S.KeyStrokes.By">밀리초 (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">녹화본에 입력한 키가 없습니다</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - 입력한 키 편집기</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - 입력한 키 편집기</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">프레임 번호</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">인식된 입력한 키</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">입력한 키 삭제하기</s:String>
@@ -1311,7 +1311,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">인코더</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Tooltip">Octree 알고리즘 사용</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System">시스템</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Tooltip">기본 팔레트 사용</s:String>

@@ -39,22 +39,22 @@
     <s:String x:Key="S.Required">必填欄位</s:String>
     <s:String x:Key="S.Warning.Single.Title">同時只能有一個實例執行</s:String>
     <s:String x:Key="S.Warning.Single.Header">該應用程式已在執行中</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif 已經在執行中，但是顯然沒有打開任何視窗。請檢查系統工作列的通知區域，其中必須有一個 ScreenToGif 圖示。</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 已經在執行中，但是顯然沒有打開任何視窗。請檢查系統工作列的通知區域，其中必須有一個 K-x录动 圖示。</s:String>
 
     <s:String x:Key="S.SavingSettings.Title">儲存設定</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">您想再次嘗試儲存它嗎？</s:String>
-    <s:String x:Key="S.SavingSettings.Message">ScreenToGif 似乎沒有足夠的權限來儲存至磁碟。&#10;&#10;您想以管理員權限再試一次嗎？</s:String>
+    <s:String x:Key="S.SavingSettings.Message">K-x录动 似乎沒有足夠的權限來儲存至磁碟。&#10;&#10;您想以管理員權限再試一次嗎？</s:String>
 
-    <s:String x:Key="S.Exiting.Title">正在離開 ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">正在離開 K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">您確定要離開嗎？</s:String>
     <s:String x:Key="S.Exiting.Message">所有視窗及通知區域圖示將被關閉</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">切換顯示卡</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">切換至正確的顯示卡以擷取所選的螢幕。</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">由於 DirectX 的限制，ScreenToGif 必須與被擷取的螢幕在同一張顯示卡下執行。</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">打開 Windows 設定 > 系統 > 顯示器 > 圖形設定，為 ScreenToGif 切換顯示卡設定。</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">打開您顯示卡中的圖形設定，為 ScreenToGif 切換顯示卡。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">由於 DirectX 的限制，K-x录动 必須與被擷取的螢幕在同一張顯示卡下執行。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">打開 Windows 設定 > 系統 > 顯示器 > 圖形設定，為 K-x录动 切換顯示卡設定。</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">打開您顯示卡中的圖形設定，為 K-x录动 切換顯示卡。</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">開啟 Windows 設定</s:String>
 
     <!--Keys-->
@@ -177,7 +177,7 @@
     <s:String x:Key="S.Command.ViewHistory">查看記錄</s:String>
 
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - 啟動</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - 啟動</s:String>
     <s:String x:Key="S.StartUp.Recorder">螢幕錄影</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">啟動螢幕錄影功能，輕鬆錄製您的螢幕畫面。</s:String>
     <s:String x:Key="S.StartUp.Webcam">網路攝影機錄影</s:String>
@@ -212,12 +212,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">您需要等所有編碼完成之後才能更新</s:String>
 
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - 下載器</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - 下載器</s:String>
     <s:String x:Key="S.Downloader.Header">下載器</s:String>
     <s:String x:Key="S.Downloader.Size">{0} / {1}</s:String>
 
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - 選項</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - 選項</s:String>
     <s:String x:Key="S.Options.App">應用程式</s:String>
     <s:String x:Key="S.Options.Recorder">錄製</s:String>
     <s:String x:Key="S.Options.Editor">編輯器</s:String>
@@ -505,7 +505,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">（在幾天之內，打開編輯器後，任何舊專案都將被刪除/丟棄）</s:String>
 
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - 清除暫存</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - 清除暫存</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">您要清除暫存資料夾嗎？</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">創建錄製或打開要編輯的內容時，將創建一個專案並將其儲存在暫存資料夾中</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">您要從暫存資料夾中刪除這些專案嗎？</s:String>
@@ -710,7 +710,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">點擊或按下來開始擷取</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">貼齊視窗（拖曳後放開貼齊）</s:String>
     <s:String x:Key="S.Recorder.PreStart">啟動前</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif（已暫停）</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动（已暫停）</s:String>
     <s:String x:Key="S.Recorder.Stopping">正在停止...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">準備啟動中...</s:String>
 
@@ -756,14 +756,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">此動作會捨棄目前錄影，移除所有影格。&#x0d;您無法復原此操作。</s:String>
 
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - 網路攝影機錄影</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - 網路攝影機錄影</s:String>
     <s:String x:Key="S.Webcam.NoVideo">未偵測到視訊裝置:(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">檢查視訊裝置</s:String>
     <s:String x:Key="S.Webcam.Scale">比例: x{0:0.##}</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">變更視訊比例</s:String>
 
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - 繪圖板錄影程式</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - 繪圖板錄影程式</s:String>
     <s:String x:Key="S.Board.AutoRecord">自動錄影</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">在繪圖時啟用錄影</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [按住]</s:String>
@@ -947,7 +947,7 @@
     <s:String x:Key="S.Notifications.Dismiss">關閉所有通知</s:String>
 
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - 編輯器</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - 編輯器</s:String>
     <s:String x:Key="S.Editor.File">檔案</s:String>
     <s:String x:Key="S.Editor.Home">首頁</s:String>
     <s:String x:Key="S.Editor.Playback">播放</s:String>
@@ -1385,7 +1385,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">提前開始展示按鍵文字。</s:String>
     <s:String x:Key="S.KeyStrokes.By">依(毫秒)：</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">您的錄影上沒有按鍵動作</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - 按鍵展示編輯器</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - 按鍵展示編輯器</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">影格數</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">偵測到按鍵展示</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">移除按鍵展示</s:String>
@@ -1581,7 +1581,7 @@
     <s:String x:Key="S.SaveAs.Encoder">編碼器</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">編碼器和量化器</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">編碼器負責產生輸出檔案。</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">內建編碼器</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF Encoder.</s:String>

@@ -315,20 +315,6 @@
                     <c:ExtendedCheckBox Text="{DynamicResource S.Options.App.General.NotifyWhileClosingApp}" Margin="15,3,5,3" IsChecked="{Binding Path=NotifyWhileClosingApp, Mode=TwoWay}"/>
                     <c:ExtendedCheckBox Text="{DynamicResource S.Options.App.General.DisableHardwareAcceleration}" Info="{DynamicResource S.Options.App.General.DisableHardwareAcceleration.Info}"
                                         Margin="15,3,5,3" VerticalAlignment="Top" IsChecked="{Binding Path=DisableHardwareAcceleration, Mode=TwoWay}"/>
-                    <c:ExtendedCheckBox Text="{DynamicResource S.Options.App.General.CheckForTranslationUpdates}" Info="{DynamicResource S.Options.App.General.CheckForTranslationUpdates.Info}"
-                                        Margin="15,3,5,3" VerticalAlignment="Top" IsChecked="{Binding Path=CheckForTranslationUpdates, Mode=TwoWay}"/>
-
-                    <c:ExtendedCheckBox x:Name="UpdatesCheckBox" Text="{DynamicResource S.Options.App.General.CheckForUpdates}" Margin="15,3,5,3" IsChecked="{Binding Path=CheckForUpdates, Mode=TwoWay}"/>
-                    <StackPanel Visibility="{Binding CheckForUpdates, Converter={StaticResource Bool2Visibility}}">
-                        <c:ExtendedCheckBox x:Name="PortableUpdateCheckBox" Text="{DynamicResource S.Options.App.General.PortableUpdate}" Info="{DynamicResource S.Options.App.General.PortableUpdate.Info}" 
-                                            Margin="30,3,5,3" IsChecked="{Binding Path=PortableUpdate, Mode=TwoWay}"/>
-                        <c:ExtendedCheckBox x:Name="AdminUpdateCheckBox" Text="{DynamicResource S.Options.App.General.ForceUpdateAsAdmin}" Margin="30,3,5,3" IsChecked="{Binding Path=ForceUpdateAsAdmin, Mode=TwoWay}"/>
-                        <c:ExtendedCheckBox Text="{DynamicResource S.Options.App.General.UpdateOnClose}" Margin="30,3,5,3" IsChecked="{Binding Path=InstallUpdates, Mode=TwoWay}"/>
-                        <c:ExtendedCheckBox Text="{DynamicResource S.Options.App.General.PromptToInstall}" Margin="45,3,5,3" IsChecked="{Binding Path=PromptToInstall, Mode=TwoWay}"
-                                            Visibility="{Binding InstallUpdates, Converter={StaticResource Bool2Visibility}}"/>
-                        <c:ExtendedCheckBox x:Name="DownloadWithMeteredNetworkCheckBox" Text="{DynamicResource S.Options.App.General.DownloadWithMeteredNetwork}"
-                                            Info="{DynamicResource S.Options.App.General.DownloadWithMeteredNetwork.Info}" Margin="30,3,5,3" IsChecked="{Binding Path=DownloadWithMeteredNetwork, Mode=TwoWay}"/>
-                    </StackPanel>
                 </StackPanel>
             </Expander>
         </Grid>

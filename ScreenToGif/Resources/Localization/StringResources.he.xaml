@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">על מנת להשתמש באפליקציה כראוי, עליך להוריד את הגירסה הנכונה של .Net Framework. &#10; האם ברצונך לפתוח את דף האינטרנט להורדתו?</s:String>
     <s:String x:Key="S.Warning.Single.Title">מותר רק מופע אחד</s:String>
     <s:String x:Key="S.Warning.Single.Header">האפליקציה כבר פועלת</s:String>
-    <s:String x:Key="S.Warning.Single.Message">אמור להיות שם ScreenToGif כבר פועל, אך כנראה שאין חלון פתוח. בדוק את מגש המערכת, סמל ScreenToGif </s:String>
+    <s:String x:Key="S.Warning.Single.Message">אמור להיות שם K-x录动 כבר פועל, אך כנראה שאין חלון פתוח. בדוק את מגש המערכת, סמל K-x录动 </s:String>
     
     <s:String x:Key="S.SavingSettings.Title">שמירת ההגדרות</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">האם תרצה לנסות לשמור אותו שוב?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">נראה של ScreenToGif אין מספיק הרשאות לשמירת ההגדרות בדיסק. &#10; &#10; האם תרצה לנסות שוב, אך הפעם באמצעות הרשאות ניהול?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">נראה של K-x录动 אין מספיק הרשאות לשמירת ההגדרות בדיסק. &#10; &#10; האם תרצה לנסות שוב, אך הפעם באמצעות הרשאות ניהול?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">יציאה מ- ScreenToGif</s:String>
+    <s:String x:Key="S.Exiting.Title">יציאה מ- K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">האם אתה בטוח שאתה רוצה לצאת?</s:String>
     <s:String x:Key="S.Exiting.Message">כל החלונות ייסגרו וסמל המגש יוסר.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">מתג גרפיקה מתג</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">עבור למתאם הגרפיקה הנכון כדי ללכוד את המסך שנבחר</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">עקב מגבלה ב- DirectX, ScreenToGif חייב להיות פועל על אותו מתאם גרפי כמו המסך שצולם.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">החלף את ערכת המתאם הגרפי עבור ScreenToGif על ידי פתיחת הגדרות Windows>מערכת>תצוגה>הגדרות גרפיקה, או על ידי לחיצה על הקישור למטה.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">החלף את מתאם הגרפיקה עבור ScreenToGif על ידי פתיחת הגדרות הגרפיקה של מתאם הגרפיקה שלך.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">עקב מגבלה ב- DirectX, K-x录动 חייב להיות פועל על אותו מתאם גרפי כמו המסך שצולם.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">החלף את ערכת המתאם הגרפי עבור K-x录动 על ידי פתיחת הגדרות Windows>מערכת>תצוגה>הגדרות גרפיקה, או על ידי לחיצה על הקישור למטה.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">החלף את מתאם הגרפיקה עבור K-x录动 על ידי פתיחת הגדרות הגרפיקה של מתאם הגרפיקה שלך.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">פתח את הגדרות Windows</s:String>
     
     <!--Keys-->
@@ -146,7 +146,7 @@
     <s:String x:Key="S.Command.ViewHistory">הצג הסטוריה</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - הפעלת</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - הפעלת</s:String>
     <s:String x:Key="S.StartUp.Recorder">הקלטה</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">פותח את מקליט המסך &#10; שם תוכל להתחיל בקלות להקליט את המסך שלך.</s:String>
     <s:String x:Key="S.StartUp.Webcam">מצלמת רשת</s:String>
@@ -160,7 +160,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">מוריד את הגרסה האחרונה של ScreenToGif.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - עדכוני</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - עדכוני</s:String>
     <s:String x:Key="S.Updater.Header">קיים עדכון חדש</s:String>
     <s:String x:Key="S.Updater.NewRelease">מהדורה חדשה!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">גרסה חדשה זמינה, גרסה {0}! &#x0d; לחץ כאן לפרטים נוספים.</s:String>
@@ -180,12 +180,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">עליך להמתין לסיום כל הקידודים לפני העדכון.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - הורדת</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - הורדת</s:String>
     <s:String x:Key="S.Downloader.Header">הורדה</s:String>
     <s:String x:Key="S.Downloader.Size">{0} מתוך {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - אפשרויות</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - אפשרויות</s:String>
     <s:String x:Key="S.Options.App">יישום</s:String>
     <s:String x:Key="S.Options.Recorder">הקלטה</s:String>
     <s:String x:Key="S.Options.Editor">עריכה</s:String>
@@ -471,7 +471,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(בימים, כל פרויקט סגור הישן מזה יימחק לאחר פתיחת האפליקציה)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - נקה מטמון</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - נקה מטמון</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">האם ברצונך לנקות את תיקיית המטמון?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">כאשר אתה יוצר הקלטה או פותח משהו לעריכה, פרויקט נוצר ומאוחסן בתוך תיקיית המטמון.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">האם ברצונך להסיר פרויקטים אלה מתיקיית המטמון?</s:String>
@@ -678,7 +678,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">לחץ או הקש על מקשים כדי ללכוד</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">הצמד לחלון (גרור ושחרר לצלם)</s:String>
     <s:String x:Key="S.Recorder.PreStart">טרום התחלה:</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (מושהה)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (מושהה)</s:String>
     <s:String x:Key="S.Recorder.Stopping">מפסיק ...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">התחלה מוקדמת ...</s:String>
     
@@ -725,14 +725,14 @@
     <s:String x:Key="S.Recorder.Discard.Message"> לא ניתן לבטל פעולה זו, פעולה זו תבטל את ההקלטה, ותסיר את כל הפריימים..</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - מקליט מצלמות אינטרנט</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - מקליט מצלמות אינטרנט</s:String>
     <s:String x:Key="S.Webcam.NoVideo">לא זוהה מכשיר וידיאו :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">בדוק אם קיימים מכשירי וידאו.</s:String>
     <s:String x:Key="S.Webcam.Scale">קנה מידה: {0: 0. ##} x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">שנה את קנה המידה של הסרטון.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - מקליט לוח</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - מקליט לוח</s:String>
     <s:String x:Key="S.Board.AutoRecord">הקלטה אוטמטית</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">מאפשר הקלטה בזמן ציור.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [החזק]</s:String>
@@ -900,7 +900,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">העתק קישור</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - פלט פקודה</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - פלט פקודה</s:String>
     <s:String x:Key="S.Encoder.Command.Header">פלט פקודה</s:String>
     
     <!--Notifications-->
@@ -908,7 +908,7 @@
     <s:String x:Key="S.Notifications.Dismiss">דחה את כל ההתראות</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - עורך</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - עורך</s:String>
     <s:String x:Key="S.Editor.File">קובץ</s:String>
     <s:String x:Key="S.Editor.Home">בית</s:String>
     <s:String x:Key="S.Editor.Playback">הפעלה</s:String>
@@ -1328,7 +1328,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">התחל את תערוכת קיצורי המפתח מוקדם יותר.</s:String>
     <s:String x:Key="S.KeyStrokes.By">לפי (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">אין הקשות על ההקלטה שלך.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - עורך קיצורי מקשים</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - עורך קיצורי מקשים</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">מספר מסגרת</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">זוהו מקשי מפתח</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">הסר את צירוף המקשים</s:String>
@@ -1522,7 +1522,7 @@
     <s:String x:Key="S.SaveAs.Encoder">מקודד</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">מקודד ומכמת</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">מקודד האחראי ליצירת קובץ הפלט.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">מקודד מובנה.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System">מערכת</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Info">מקודד זמין על ידי המערכת.</s:String>

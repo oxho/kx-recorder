@@ -40,8 +40,8 @@
     <!--<s:String x:Key="S.Warning.Net.Message">In order to properly use this app, you need to download the correct version of the .Net Framework.&#10;Would you like to open the web page to download it?</s:String>-->
     <!--<s:String x:Key="S.Warning.Single.Title">Only one instance permitted</s:String>-->
     <!--<s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>-->
-    <!--<s:String x:Key="S.Warning.Single.Message">ScreenToGif is already running, but apparently there's no window open. Check you system tray, a ScreenToGif icon must be there.</s:String>-->
-    <s:String x:Key="S.Exiting.Title">Đang thoát ScreenToGif</s:String>
+    <!--<s:String x:Key="S.Warning.Single.Message">K-x录动 is already running, but apparently there's no window open. Check you system tray, a K-x录动 icon must be there.</s:String>-->
+    <s:String x:Key="S.Exiting.Title">Đang thoát K-x录动</s:String>
     <s:String x:Key="S.Exiting.Instruction">Bạn chắc chắn muốn thoát chứ?</s:String>
     <s:String x:Key="S.Exiting.Message">Tất cả cửa sổ sẽ bị đóng lại và thanh ứng dụng sẽ biến mất.</s:String>
     
@@ -122,7 +122,7 @@
     <!--<s:String x:Key="S.Command.Remove">Remove selected item</s:String>-->
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Bắt đầu</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Bắt đầu</s:String>
     <s:String x:Key="S.StartUp.Recorder">Quay</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Mở quay màn hình, nơi bạn có thể dễ dàng bắt đầu quay màn hình của bạn.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -154,7 +154,7 @@
     <!--<s:String x:Key="S.Updater.Warning.Download">It was not possible to download the update.</s:String>-->
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Các tùy chọn</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Các tùy chọn</s:String>
     <s:String x:Key="S.Options.App">Ứng dụng</s:String>
     <s:String x:Key="S.Options.Recorder">Máy ghi âm</s:String>
     <!--<s:String x:Key="S.Options.Editor">Editor</s:String>-->
@@ -397,7 +397,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(trong các ngày, bất kì dự án đã đóng cũ hơn dự án này sẽ bị xóa/hủy bỏ sau khi đang mở ứng dụng)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <!--<s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Clear Cache</s:String>-->
+    <!--<s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Clear Cache</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Info">When you create a recording or open something to edit, a project is created and stored inside the cache folder.</s:String>-->
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
@@ -548,7 +548,7 @@
     
     <s:String x:Key="S.Recorder.SnapToWindow">Chụp cửa sổ (Rê và thả chuột để chụp)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Bắt đầu trước</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Dừng hẳn)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Dừng hẳn)</s:String>
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
     
     <!--<s:String x:Key="S.Recorder.Warning.CaptureNotPossible">It was not possible to capture the screen</s:String>-->
@@ -572,14 +572,14 @@
     <s:String x:Key="S.Recorder.EscToCancel">Nhấn Esc để thoát</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Ghi hình webcam</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Ghi hình webcam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Không có thiết bị ghi hình được tìm thấy :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Kiểm tra thiết bị ghi hình.</s:String>
     <s:String x:Key="S.Webcam.Scale">Thu phóng: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Thay đổi tỉ lệ của video.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Bảng ghi</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Bảng ghi</s:String>
     <s:String x:Key="S.Board.AutoRecord">Quay tự động</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Cho phép quay trong khi đang vẽ</s:String>
     <s:String x:Key="S.Board.CtrlHold">[Giữ] Ctrl </s:String>
@@ -701,7 +701,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Sao chép liên kết</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Thoát lệnh</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Thoát lệnh</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Thoát lệnh</s:String>
     
     <!--Notifications-->
@@ -709,7 +709,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Bỏ qua tất cả thông báo</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Chỉnh sửa</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Chỉnh sửa</s:String>
     <s:String x:Key="S.Editor.File">Tệp</s:String>
     <s:String x:Key="S.Editor.Home">Trang chính</s:String>
     <s:String x:Key="S.Editor.Playback">Phát lại</s:String>
@@ -1111,7 +1111,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Bắt đầu thể hiện các tổ hợp phím sớm hơn.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Bằng (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Không có tổ hợp phím trong khi đang quay.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Trình chỉnh sửa tổ hợp phím</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Trình chỉnh sửa tổ hợp phím</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Số khung hình</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Đã nhận diện các tổ hợp phím </s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Loại bỏ tổ hợp phím</s:String>
@@ -1242,7 +1242,7 @@
     
     <!--Editor • Save as > Encoder-->
     <s:String x:Key="S.SaveAs.Encoder">Mã hóa</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     
     <s:String x:Key="S.SaveAs.Encoder.System">Hệ thống</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System.Tooltip">Sử dụng bảng màu mặc định.</s:String>

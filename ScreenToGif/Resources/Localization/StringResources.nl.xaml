@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Om deze app correct te gebruiken, moet je de juiste versie van .Net Framework downloaden.&#10;Wilt u de webpagina openen om deze te downloaden?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Slechts één instantie toegestaan</s:String>
     <s:String x:Key="S.Warning.Single.Header">De app is al actief</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif draait al, maar blijkbaar zonder venster geopend. Controleer het systeemvak, er moet een ScreenToGif-pictogram zijn.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 draait al, maar blijkbaar zonder venster geopend. Controleer het systeemvak, er moet een K-x录动-pictogram zijn.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Instellingen opslaan</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Wil je het opnieuw proberen op te slaan?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Het lijkt erop dat ScreenToGif niet genoeg rechten heeft om de instellingen op de schijf op te slaan.&#10;&#10; Wil je het opnieuw proberen, maar deze keer met beheerdersrechten?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Het lijkt erop dat K-x录动 niet genoeg rechten heeft om de instellingen op de schijf op te slaan.&#10;&#10; Wil je het opnieuw proberen, maar deze keer met beheerdersrechten?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">ScreenToGif afsluiten</s:String>
+    <s:String x:Key="S.Exiting.Title">K-x录动 afsluiten</s:String>
     <s:String x:Key="S.Exiting.Instruction">Weet je zeker dat je wilt afsluiten?</s:String>
     <s:String x:Key="S.Exiting.Message">Alle vensters worden gesloten en het pictogram wordt van de taakbalk verwijderd.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Grafische adapter wisselen</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Schakel over naar de juiste grafische adapter om het geselecteerde scherm vast te leggen</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">Vanwege een beperking in DirectX moet ScreenToGif worden uitgevoerd op dezelfde grafische adapter als het scherm dat wordt vastgelegd.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Verander de grafische adapter set voor ScreenToGif door Windows Instellingen> Systeem> Beeldscherm> Grafische instellingen te openen, of door op de onderstaande link te klikken.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Verwissel de grafische adapter voor ScreenToGif door de grafische instellingen van uw grafische adapter te openen.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">Vanwege een beperking in DirectX moet K-x录动 worden uitgevoerd op dezelfde grafische adapter als het scherm dat wordt vastgelegd.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Verander de grafische adapter set voor K-x录动 door Windows Instellingen> Systeem> Beeldscherm> Grafische instellingen te openen, of door op de onderstaande link te klikken.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Verwissel de grafische adapter voor K-x录动 door de grafische instellingen van uw grafische adapter te openen.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Windows Instellingen openen</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Geschiedenis bekijken</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Startscherm</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Startscherm</s:String>
     <s:String x:Key="S.StartUp.Recorder">Opname</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Opent de Schermopname, waarmee in een handomdraai opnames van het scherm kunnen worden gemaakt.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Webcam</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Je moet wachten tot alle coderingen zijn voltooid voordat je kunt updaten.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Downloader</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Downloader</s:String>
     <s:String x:Key="S.Downloader.Header">Downloader</s:String>
     <s:String x:Key="S.Downloader.Size">{0} van {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Instellingen</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Instellingen</s:String>
     <s:String x:Key="S.Options.App">Programma</s:String>
     <s:String x:Key="S.Options.Recorder">Opname</s:String>
     <s:String x:Key="S.Options.Editor">Bewerker</s:String>
@@ -475,7 +475,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(in dagen, oudere projecten worden verwijderd bij het openen van de Editor)</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Cache wissen</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Cache wissen</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Wil je de cachemap wissen?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Wanneer u een opname maakt of iets opent om te bewerken, wordt een project gemaakt en opgeslagen in de cachemap.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Wil je deze projecten uit de cachemap verwijderen?</s:String>
@@ -680,7 +680,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Klik of druk een toets voor opname</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Aanpassen aan venstergrootte (Sleep en laat los om aan te passen)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Aftellen</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (gepauzeerd)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (gepauzeerd)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Stoppen...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Opstarten...</s:String>
     
@@ -726,14 +726,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Met deze actie wordt de opname verwijderd en worden alle frames verwijderd. &#10;Je kunt deze bewerking niet ongedaan maken.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Webcam Recorder</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Webcam Recorder</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Geen apparaat voor video-opname gedetecteerd :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Controleer op apparaten voor video-opname.</s:String>
     <s:String x:Key="S.Webcam.Scale">Schaal: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">De schaal van de video aanpassen.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Whiteboard-opname</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Whiteboard-opname</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatische opname</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Maakt opname tijdens het tekenen mogelijk.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [ingedrukt houden]</s:String>
@@ -909,7 +909,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Snelkoppeling kopiëren</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Opdrachtuitvoer</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Opdrachtuitvoer</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Opdrachtuitvoer</s:String>
     
     <!--Notifications-->
@@ -917,7 +917,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Alle meldingen negeren</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Editor</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Editor</s:String>
     <s:String x:Key="S.Editor.File">Bestand</s:String>
     <s:String x:Key="S.Editor.Home">Start</s:String>
     <s:String x:Key="S.Editor.Playback">Afspelen</s:String>
@@ -1352,7 +1352,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Weergave van de toetsaanslagen eerder starten.</s:String>
     <s:String x:Key="S.KeyStrokes.By">Per (ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Er zijn geen toetsenbordaanslagen in je opname.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Toetsaanslag Editor</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Toetsaanslag Editor</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Framenummer</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Gedetecteerde toetsaanslagen</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Toetsaanslag verwijderen</s:String>
@@ -1548,7 +1548,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Encoder</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Encoder en kwantiseerder</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Encoder die verantwoordelijk is voor het genereren van het uitvoerbestand.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Ingebouwde encoder</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF Encoder.</s:String>

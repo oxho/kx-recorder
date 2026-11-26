@@ -53,6 +53,14 @@ public class NotificationBox : ItemsControl
         set => SetValue(HasAnyEncodingProperty, value);
     }
 
+    public static readonly DependencyProperty HasCompletedExportProperty =
+        DependencyProperty.Register(nameof(HasCompletedExport), typeof(bool), typeof(NotificationBox));
+
+    public bool HasCompletedExport => (bool)GetValue(HasCompletedExportProperty);
+
+    internal void RefreshCompletedExports() => SetValue(HasCompletedExportProperty,
+        Items.OfType<EncoderListViewItem>().Any(item => item.Status == EncodingStatus.Completed));
+
     public bool HasAnyActiveEncoding
     {
         get => (bool)GetValue(HasAnyActiveEncodingProperty);
@@ -277,6 +285,7 @@ public class NotificationBox : ItemsControl
         _mainScrollViewer?.ScrollToBottom();
 
         HasAnyEncoding = Items.OfType<EncoderListViewItem>().Any();
+        RefreshCompletedExports();
         HasAnyActiveEncoding = Items.OfType<EncoderListViewItem>().Any(a => a.Status == EncodingStatus.Processing);
 
         return enc;
@@ -396,6 +405,7 @@ public class NotificationBox : ItemsControl
         GC.Collect();
 
         HasAnyEncoding = Items.OfType<EncoderListViewItem>().Any();
+        RefreshCompletedExports();
         HasAnyActiveEncoding = Items.OfType<EncoderListViewItem>().Any(a => a.Status == EncodingStatus.Processing);
     }
 
@@ -422,6 +432,7 @@ public class NotificationBox : ItemsControl
         Items.Remove(enc);
 
         HasAnyEncoding = Items.OfType<EncoderListViewItem>().Any();
+        RefreshCompletedExports();
         HasAnyActiveEncoding = Items.OfType<EncoderListViewItem>().Any(a => a.Status == EncodingStatus.Processing);
 
         return enc;
@@ -455,6 +466,7 @@ public class NotificationBox : ItemsControl
             EncodingManager.ViewList.Remove(enc);
             Items.Remove(enc);
         }
+        RefreshCompletedExports();
     }
 
     #endregion

@@ -322,7 +322,7 @@ public partial class Webcam
         //await Task.Run(() => AddFrames(fileName, new Bitmap(bt)));
         AddFrames(fileName, new Bitmap(bt));
 
-        Dispatcher.Invoke(() => Title = $"ScreenToGif • {_frameCount}");
+        Dispatcher.Invoke(() => Title = $"K-x录动 • {_frameCount}");
 
         _frameCount++;
         GC.Collect(1);
@@ -375,7 +375,7 @@ public partial class Webcam
                 #region SnapShot Recording
 
                 Stage = RecorderStages.Snapping;
-                Title = "ScreenToGif - " + LocalizationHelper.Get("S.Recorder.Snapshot");
+                Title = "K-x录动 - " + LocalizationHelper.Get("S.Recorder.Snapshot");
 
                 Normal_Elapsed(null, null);
 
@@ -404,7 +404,7 @@ public partial class Webcam
             #region To Record Again
 
             Stage = RecorderStages.Recording;
-            Title = "ScreenToGif";
+            Title = "K-x录动";
 
             _timer.Start();
 
@@ -472,7 +472,7 @@ public partial class Webcam
         //if (!UserSettings.All.SnapshotMode)
         {
             //Only display the Record text when not in snapshot mode.
-            Title = "ScreenToGif";
+            Title = "K-x录动";
             Stage = RecorderStages.Stopped;
         }
         //else
@@ -515,7 +515,7 @@ public partial class Webcam
                 VideoDevicesComboBox.IsEnabled = true;
                 Topmost = true;
 
-                Title = "ScreenToGif";
+                Title = "K-x录动";
 
                 #endregion
             }
@@ -524,13 +524,13 @@ public partial class Webcam
         {
             LogWriter.Log(nll, "NullPointer in the Stop function");
 
-            ErrorDialog.Ok("ScreenToGif", "Error while stopping", nll.Message, nll);
+            ErrorDialog.Ok("K-x录动", "Error while stopping", nll.Message, nll);
         }
         catch (Exception ex)
         {
             LogWriter.Log(ex, "Error in the Stop function");
 
-            ErrorDialog.Ok("ScreenToGif", "Error while stopping", ex.Message, ex);
+            ErrorDialog.Ok("K-x录动", "Error while stopping", ex.Message, ex);
         }
     }
 

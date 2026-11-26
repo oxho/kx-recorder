@@ -42,22 +42,22 @@
     <s:String x:Key="S.Warning.Net.Message">Jotta voit käyttää tätä sovellusta kunnolla, sinun on ladattava oikea versio .Net Frameworkista.&#10;Haluatko avata verkkosivun ladataksesi sen?</s:String>
     <s:String x:Key="S.Warning.Single.Title">Vain yksi instanssi sallittu</s:String>
     <s:String x:Key="S.Warning.Single.Header">Sovellus on jo käynnissä</s:String>
-    <s:String x:Key="S.Warning.Single.Message">ScreenToGif on jo käynnissä, mutta ilmeisesti ikkuna ei ole avoinna. Tarkista, että ScreenToGif-kuvake on ilmoitusalueella.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">K-x录动 on jo käynnissä, mutta ilmeisesti ikkuna ei ole avoinna. Tarkista, että K-x录动-kuvake on ilmoitusalueella.</s:String>
     
     <s:String x:Key="S.SavingSettings.Title">Saving the settings</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Would you like to try to save it again?</s:String>
-    <s:String x:Key="S.SavingSettings.Message">Looks like ScreenToGif does not have enough privileges to save the settings to the disk.&#10;&#10;Would you like to try again, but this time using administrative privileges?</s:String>
+    <s:String x:Key="S.SavingSettings.Message">Looks like K-x录动 does not have enough privileges to save the settings to the disk.&#10;&#10;Would you like to try again, but this time using administrative privileges?</s:String>
     
-    <s:String x:Key="S.Exiting.Title">Poistu ScreenToGif:stä</s:String>
+    <s:String x:Key="S.Exiting.Title">Poistu K-x录动:stä</s:String>
     <s:String x:Key="S.Exiting.Instruction">Haluatko varmasti poistua?</s:String>
     <s:String x:Key="S.Exiting.Message">Kaikki ikkunat suljetaan ja ilmoitusalueen kuvake poistetaan.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Vaihda grafiikkasovitin</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Vaihda oikeaan grafiikkasovittimeen valitun näytön kaappaamiseksi.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Message">DirectX:n rajoituksen vuoksi ScreenToGif-ohjelman on oltava käynnissä samalla grafiikkasovittimella kuin kaapattavan näytön.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action">Vaihda näytönohjain ScreenToGifiä varten avaamalla Windows-asetukset > Järjestelmä > Näyttö > Grafiikka-asetukset tai napsauttamalla alla olevaa linkkiä.</s:String>
-    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Vaihda näytönohjain ScreenToGifiä varten avaamalla näytönohjaimesi grafiikka-asetukset.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">DirectX:n rajoituksen vuoksi K-x录动-ohjelman on oltava käynnissä samalla grafiikkasovittimella kuin kaapattavan näytön.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Vaihda näytönohjain K-x录动iä varten avaamalla Windows-asetukset > Järjestelmä > Näyttö > Grafiikka-asetukset tai napsauttamalla alla olevaa linkkiä.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Vaihda näytönohjain K-x录动iä varten avaamalla näytönohjaimesi grafiikka-asetukset.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Avaa Windowsin asetukset</s:String>
     
     <!--Keys-->
@@ -147,7 +147,7 @@
     <s:String x:Key="S.Command.ViewHistory">Näytä historia</s:String>
     
     <!--StartUp-->
-    <s:String x:Key="S.StartUp.Title">ScreenToGif - Käynnistys</s:String>
+    <s:String x:Key="S.StartUp.Title">K-x录动 - Käynnistys</s:String>
     <s:String x:Key="S.StartUp.Recorder">Tallennin</s:String>
     <s:String x:Key="S.StartUp.Recorder.Tooltip">Avaa näytön tallentimen,&#10;jossa voit helposti aloittaa näytön tallentamisen.</s:String>
     <s:String x:Key="S.StartUp.Webcam">Verkkokamera</s:String>
@@ -161,7 +161,7 @@
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Lataa ScreenToGifin uusimman version.</s:String>
 
     <!--Updater-->
-    <s:String x:Key="S.Updater.Title">ScreenToGif - Päivitysohjelma</s:String>
+    <s:String x:Key="S.Updater.Title">K-x录动 - Päivitysohjelma</s:String>
     <s:String x:Key="S.Updater.Header">Uusi päivitys on saatavilla</s:String>
     <s:String x:Key="S.Updater.NewRelease">Uusi julkaisu!</s:String>
     <s:String x:Key="S.Updater.NewRelease.Info">Uusi versio saatavilla, versio {0}!&#x0d;Klikkaa tästä saadaksesi lisätietoja.</s:String>
@@ -182,12 +182,12 @@
     <s:String x:Key="S.Updater.Warning.Encoding">Sinun on odotettava, että kaikki koodaukset valmistuvat ennen päivittämistä.</s:String>
     
     <!--Downloader-->
-    <s:String x:Key="S.Downloader.Title">ScreenToGif - Lataaja</s:String>
+    <s:String x:Key="S.Downloader.Title">K-x录动 - Lataaja</s:String>
     <s:String x:Key="S.Downloader.Header">Lataaja</s:String>
     <s:String x:Key="S.Downloader.Size">{0} / {1}</s:String>
     
     <!--Options-->
-    <s:String x:Key="S.Options.Title">ScreenToGif - Asetukset</s:String>
+    <s:String x:Key="S.Options.Title">K-x录动 - Asetukset</s:String>
     <s:String x:Key="S.Options.App">Sovellus</s:String>
     <s:String x:Key="S.Options.Recorder">Tallennin</s:String>
     <s:String x:Key="S.Options.Editor">Editori</s:String>
@@ -473,7 +473,7 @@
     <s:String x:Key="S.Options.Storage.AutomaticRemovalDays.Info">(päivinä, kaikki tätä vanhemmat suljetut projektit poistetaan/hävitetään sovelluksen avaamisen jälkeen).</s:String>
     
     <!--Options • Storage > Clear cache-->
-    <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Välimuistin tyhjennys</s:String>
+    <s:String x:Key="S.Options.Storage.Cache.Title">K-x录动 - Välimuistin tyhjennys</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Haluatko tyhjentää välimuistikansion?</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Info">Kun luot nauhoituksen tai avaat jotain muokattavaa, luodaan projekti, joka tallennetaan välimuistikansioon.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Question">Haluatko poistaa nämä projektit välimuistikansiosta?</s:String>
@@ -677,7 +677,7 @@
     <s:String x:Key="S.Recorder.ClickOrPress">Klikkaa tai paina näppäimiä kaapataksesi</s:String>
     <s:String x:Key="S.Recorder.SnapToWindow">Nappaa ikkunaan (Nappaa vetämällä ja vapauttamalla)</s:String>
     <s:String x:Key="S.Recorder.PreStart">Ennen aloitusta:</s:String>
-    <s:String x:Key="S.Recorder.Paused">ScreenToGif (Tauko)</s:String>
+    <s:String x:Key="S.Recorder.Paused">K-x录动 (Tauko)</s:String>
     <s:String x:Key="S.Recorder.Stopping">Pysäytetään...</s:String>
     <s:String x:Key="S.Recorder.PreStarting">Esialoitus...</s:String>
     
@@ -723,14 +723,14 @@
     <s:String x:Key="S.Recorder.Discard.Message">Tämä toiminto hylkää tallennuksen ja poistaa kaikki kehykset.&#x0d;Tätä toimintoa ei voi peruuttaa.</s:String>
     
     <!--Webcam recorder-->
-    <s:String x:Key="S.Webcam.Title">ScreenToGif - Verkkokameratallennin</s:String>
+    <s:String x:Key="S.Webcam.Title">K-x录动 - Verkkokameratallennin</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Videolaitetta ei löydy :(</s:String>
     <s:String x:Key="S.Webcam.CheckVideoDevices">Tarkista videolaitteet.</s:String>
     <s:String x:Key="S.Webcam.Scale">Skaala: {0:0.##}x</s:String>
     <s:String x:Key="S.Webcam.ChangeScale">Muuta videon skaalaa.</s:String>
     
     <!--Board recorder-->
-    <s:String x:Key="S.Board.Title">ScreenToGif - Piirustustaulun tallennin</s:String>
+    <s:String x:Key="S.Board.Title">K-x录动 - Piirustustaulun tallennin</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automaattinen tallennus</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Ottaa tallennuksen käyttöön piirtämisen aikana.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Pidä]</s:String>
@@ -904,7 +904,7 @@
     <s:String x:Key="S.Encoder.Copy.Link">Kopioi linkki</s:String>
     
     <!--Command output-->
-    <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Komennon ulostulo</s:String>
+    <s:String x:Key="S.Encoder.Command.Title">K-x录动 - Komennon ulostulo</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Komentotulos</s:String>
     
     <!--Notifications-->
@@ -912,7 +912,7 @@
     <s:String x:Key="S.Notifications.Dismiss">Hylkää kaikki ilmoitukset</s:String>
     
     <!--Editor-->
-    <s:String x:Key="S.Editor.Title">ScreenToGif - Editori</s:String>
+    <s:String x:Key="S.Editor.Title">K-x录动 - Editori</s:String>
     <s:String x:Key="S.Editor.File">Tiedosto</s:String>
     <s:String x:Key="S.Editor.Home">Koti</s:String>
     <s:String x:Key="S.Editor.Playback">Toisto</s:String>
@@ -1347,7 +1347,7 @@
     <s:String x:Key="S.KeyStrokes.Earlier">Aloita näppäinpainallusten näyttö aikaisemmin.</s:String>
     <s:String x:Key="S.KeyStrokes.By">(ms):</s:String>
     <s:String x:Key="S.KeyStrokes.Warning.None">Tallenteessasi ei ole näppäinpainalluksia.</s:String>
-    <s:String x:Key="S.KeyStrokes.Edit.Title">ScreenToGif - Näppäimistöeditori</s:String>
+    <s:String x:Key="S.KeyStrokes.Edit.Title">K-x录动 - Näppäimistöeditori</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Number">Kehyksen numero</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Keys">Havaitut näppäinpainallukset</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Remove">Poista näppäinpainallus</s:String>
@@ -1541,7 +1541,7 @@
     <s:String x:Key="S.SaveAs.Encoder">Kooderi</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Quantizer">Kooderi ja kvantisoija</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Info">Kooderi, joka vastaa tulostiedoston luomisesta.</s:String>
-    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
+    <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">K-x录动</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Sisäänrakennettu kooderi.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">KGy SOFT GIF Encoder.</s:String>

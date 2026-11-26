@@ -86,7 +86,7 @@
             <DropShadowEffect x:Key="Shadow.Invariant" ShadowDepth="0" Color="Transparent" Opacity="0" BlurRadius="0" RenderingBias="Performance"/>
 
             <!--Notification Icon-->
-            <n:NotifyIcon x:Key="NotifyIcon" IconSource="/Resources/Logo.ico" DataContext="{StaticResource AppViewModel}" NotifyToolTipText="ScreenToGif" Visibility="Collapsed" 
+            <n:NotifyIcon x:Key="NotifyIcon" IconSource="/Resources/Logo.ico" DataContext="{StaticResource AppViewModel}" NotifyToolTipText="K-x录动" Visibility="Collapsed"
                           LeftClickCommand="{Binding TrayLeftClick}" LeftDoubleClickCommand="{Binding TrayDoubleLeftClick}" MiddleClickCommand="{Binding TrayMiddleClick}">
                 <n:NotifyIcon.ContextMenu>
                     <ContextMenu>
